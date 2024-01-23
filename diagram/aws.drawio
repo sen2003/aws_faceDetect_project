@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-23T09:59:21.146Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="UoX8QS4BUOAgQr7hCbOa" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-23T18:11:10.550Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="aCCLXVmd9RVRCdfhrtwG" version="22.1.21" type="github">
   <diagram name="第 1 页" id="VFCjEm5W6MaqiMix1aKl">
-    <mxGraphModel dx="2538" dy="693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2050" dy="1772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -72,9 +72,6 @@
         <mxCell id="a6JBxLxwtquYG9cKJR-4-19" value="Amazon S3" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.s3;" parent="1" vertex="1">
           <mxGeometry x="749" y="125" width="49" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="a6JBxLxwtquYG9cKJR-4-24" value="上傳照片、影片" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.container_1;" parent="1" vertex="1">
-          <mxGeometry x="342.25" y="137.5" width="40" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="a6JBxLxwtquYG9cKJR-4-30" value="儲存至S3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="507.5" y="135" width="170" height="30" as="geometry" />
         </mxCell>
@@ -116,9 +113,6 @@
         </mxCell>
         <mxCell id="pPQGrUG8o8pBh9T2TDlA-15" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;前端&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#0000ff;" parent="1" vertex="1">
           <mxGeometry x="-68" y="126" width="151.5" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="pPQGrUG8o8pBh9T2TDlA-26" value="" style="outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;strokeColor=#4c00ff;fillColor=none;verticalAlign=top;align=center;fontColor=#0062ff;dashed=0;spacingTop=3;" parent="1" vertex="1">
-          <mxGeometry x="-218.5" y="126" width="77" height="85" as="geometry" />
         </mxCell>
         <mxCell id="Vm1vwxEjEGVl82Kh1ue6-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;elbow=vertical;startArrow=openThin;startFill=0;strokeColor=#545B64;rounded=0;" parent="1" edge="1">
           <mxGeometry width="100" relative="1" as="geometry">
@@ -170,7 +164,7 @@
           <mxGeometry x="678.25" y="420" width="50" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Vm1vwxEjEGVl82Kh1ue6-8" value="Camera" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.camera;" parent="1" vertex="1">
-          <mxGeometry x="-210" y="125" width="60" height="60" as="geometry" />
+          <mxGeometry x="-290" y="-10" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VvQtCBpBmSeENk6v5BYq-14" value="系統開/關" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.container_1;" parent="1" vertex="1">
           <mxGeometry x="-20" y="220" width="40" height="40" as="geometry" />
@@ -224,16 +218,10 @@
           <mxGeometry x="90" y="350" width="50" height="90" as="geometry" />
         </mxCell>
         <mxCell id="-sES5BDnEpW2IbtICMvI-1" value="Amazon Kinesis Video Streams" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.kinesis_video_streams;" vertex="1" parent="1">
-          <mxGeometry x="342.5" y="330" width="47.5" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="-sES5BDnEpW2IbtICMvI-7" value="上傳影片/照片" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.container_1;" vertex="1" parent="1">
-          <mxGeometry x="-20" y="305" width="40" height="40" as="geometry" />
+          <mxGeometry x="-190" width="47.5" height="100" as="geometry" />
         </mxCell>
         <mxCell id="-sES5BDnEpW2IbtICMvI-9" value="開啟Camera" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.container_1;" vertex="1" parent="1">
           <mxGeometry x="-20" y="404.5" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="-sES5BDnEpW2IbtICMvI-11" value="" style="line;strokeWidth=2;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="1">
-          <mxGeometry x="20" y="321" width="40" height="8" as="geometry" />
         </mxCell>
         <mxCell id="-sES5BDnEpW2IbtICMvI-12" value="" style="line;strokeWidth=2;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="1">
           <mxGeometry x="20" y="420.5" width="40" height="8" as="geometry" />
@@ -259,6 +247,9 @@
         </mxCell>
         <mxCell id="-sES5BDnEpW2IbtICMvI-21" value="串流" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="382" y="358" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-sES5BDnEpW2IbtICMvI-23" value="Amazon Rekognition Video" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.rekognition_video;" vertex="1" parent="1">
+          <mxGeometry x="-80" width="50" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
