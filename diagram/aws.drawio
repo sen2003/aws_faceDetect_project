@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-23T18:11:10.550Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="aCCLXVmd9RVRCdfhrtwG" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-23T18:23:26.003Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="CQPGyZDYXEdIbwOyG8jF" version="22.1.21" type="github">
   <diagram name="第 1 页" id="VFCjEm5W6MaqiMix1aKl">
     <mxGraphModel dx="2050" dy="1772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -164,7 +164,7 @@
           <mxGeometry x="678.25" y="420" width="50" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Vm1vwxEjEGVl82Kh1ue6-8" value="Camera" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.camera;" parent="1" vertex="1">
-          <mxGeometry x="-290" y="-10" width="60" height="60" as="geometry" />
+          <mxGeometry x="-320" y="-10" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VvQtCBpBmSeENk6v5BYq-14" value="系統開/關" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.container_1;" parent="1" vertex="1">
           <mxGeometry x="-20" y="220" width="40" height="40" as="geometry" />
@@ -250,6 +250,9 @@
         </mxCell>
         <mxCell id="-sES5BDnEpW2IbtICMvI-23" value="Amazon Rekognition Video" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.rekognition_video;" vertex="1" parent="1">
           <mxGeometry x="-80" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-sES5BDnEpW2IbtICMvI-25" value="Amazon Kinesis Data Streams" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.kinesis_data_streams;" vertex="1" parent="1">
+          <mxGeometry x="20" width="50" height="105" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
