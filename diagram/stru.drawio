@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-30T08:32:28.023Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="AeMg1OJKJTW23uGeAYbd" version="23.0.2" type="device">
+<mxfile host="app.diagrams.net" modified="2024-01-31T16:02:25.611Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="pK9JQsoIlrV9EUjSd07T" version="23.0.2" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="1700" dy="2093" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1574" dy="2035" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,7 +10,7 @@
         <mxCell id="gahU3a6pric0zkKW1BDH-2" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=90;points=[[0,0.5,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[1,0,0,0,0],[1,0.5,0,0,0],[1,1,0,0,0]];perimeterSpacing=0;flipV=0;flipH=1;direction=north;" parent="1" vertex="1">
           <mxGeometry x="-680" y="930" width="1770" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-138" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-138" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="234.39999999999998" y="977.5" width="1130.6" height="485" as="geometry" />
         </mxCell>
         <mxCell id="gahU3a6pric0zkKW1BDH-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=none;endFill=0;" parent="19O4f2Ru0PsyOeLuIM_t-138" edge="1">
@@ -22,82 +22,82 @@
             <mxPoint x="-10" y="242.63999999999987" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;1.3 行為辨識&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-138">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;1.3 行為辨識&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="19O4f2Ru0PsyOeLuIM_t-138" vertex="1">
           <mxGeometry x="0.6000000000000227" y="222.5" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-90" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-138">
-          <mxGeometry x="150.60000000000002" y="17.5" width="50" height="452.5" as="geometry" />
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-90" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="19O4f2Ru0PsyOeLuIM_t-138" vertex="1">
+          <mxGeometry x="150.6" y="17.5" width="49.4" height="452.5" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-91" value="" style="endArrow=none;html=1;rounded=0;entryX=0.991;entryY=0.296;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="19O4f2Ru0PsyOeLuIM_t-138">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-91" value="" style="endArrow=none;html=1;rounded=0;entryX=0.991;entryY=0.296;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" parent="19O4f2Ru0PsyOeLuIM_t-138" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="175.60000000000002" y="117.21000000000004" as="sourcePoint" />
-            <mxPoint x="200.60000000000002" y="117.21000000000004" as="targetPoint" />
+            <mxPoint x="176" y="117.36000000000004" as="sourcePoint" />
+            <mxPoint x="200" y="117.36000000000004" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-92" value="" style="endArrow=none;html=1;rounded=0;entryX=0.991;entryY=0.296;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="19O4f2Ru0PsyOeLuIM_t-138">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-92" value="" style="endArrow=none;html=1;rounded=0;entryX=0.991;entryY=0.296;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" parent="19O4f2Ru0PsyOeLuIM_t-138" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="173.60000000000002" y="243.46000000000004" as="sourcePoint" />
-            <mxPoint x="197.60000000000002" y="243.46000000000004" as="targetPoint" />
+            <mxPoint x="176" y="243.46000000000004" as="sourcePoint" />
+            <mxPoint x="199" y="243.46000000000004" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-93" value="" style="endArrow=none;html=1;rounded=0;entryX=0.991;entryY=0.296;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="19O4f2Ru0PsyOeLuIM_t-138">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-93" value="" style="endArrow=none;html=1;rounded=0;entryX=0.991;entryY=0.296;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" parent="19O4f2Ru0PsyOeLuIM_t-138" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="176.10000000000002" y="370" as="sourcePoint" />
-            <mxPoint x="200.10000000000002" y="370" as="targetPoint" />
+            <mxPoint x="176" y="370" as="sourcePoint" />
+            <mxPoint x="199.60000000000002" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-94" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;1.3.1數據收集與預處理&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-138">
-          <mxGeometry x="200.60000000000002" width="210" height="35" as="geometry" />
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-94" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;1.3.1數據收集與預處理&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="19O4f2Ru0PsyOeLuIM_t-138" vertex="1">
+          <mxGeometry x="199.6" width="210" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-95" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; 1.3.2 特徵提取&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-138">
-          <mxGeometry x="200.60000000000002" y="100" width="210" height="35" as="geometry" />
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-95" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; 1.3.2 特徵提取&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="19O4f2Ru0PsyOeLuIM_t-138" vertex="1">
+          <mxGeometry x="199.60000000000002" y="100" width="210" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-96" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-138">
-          <mxGeometry x="412.1" y="90" width="50" height="57.5" as="geometry" />
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-96" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="19O4f2Ru0PsyOeLuIM_t-138" vertex="1">
+          <mxGeometry x="409.6" y="90" width="50" height="57.5" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-97" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;1.3.2.1.骨架提取: 利用姿態估計演算法（如OpenPose）來識別和跟蹤人體骨架。&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-138">
-          <mxGeometry x="462.1" y="65" width="570" height="35" as="geometry" />
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-97" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;1.3.2.1.骨架提取: 利用姿態估計演算法（如OpenPose）來識別和跟蹤人體骨架。&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="19O4f2Ru0PsyOeLuIM_t-138" vertex="1">
+          <mxGeometry x="459.6" y="65" width="570" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-98" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;1.3.2.2.關鍵點分析: 提取動作過程中的關鍵點（如手、腳的位置）&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-138">
-          <mxGeometry x="462.1" y="130" width="428" height="35" as="geometry" />
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-98" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;1.3.2.2.關鍵點分析: 提取動作過程中的關鍵點（如手、腳的位置）&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="19O4f2Ru0PsyOeLuIM_t-138" vertex="1">
+          <mxGeometry x="459.6" y="130" width="428" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-100" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;1.3.3. 動作識別&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-138">
-          <mxGeometry x="197.60000000000002" y="226.25" width="212" height="35" as="geometry" />
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-100" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;1.3.3. 動作識別&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="19O4f2Ru0PsyOeLuIM_t-138" vertex="1">
+          <mxGeometry x="199.60000000000002" y="226.25" width="212" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-101" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-138">
-          <mxGeometry x="410.6" y="215" width="50" height="57.5" as="geometry" />
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-101" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="19O4f2Ru0PsyOeLuIM_t-138" vertex="1">
+          <mxGeometry x="412.6" y="215" width="50" height="57.5" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-102" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;1.3.3.1.時間序列分析: 將連續的關鍵點位置變化視為時間序列數據&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-138">
-          <mxGeometry x="460.6" y="190" width="430" height="35" as="geometry" />
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-102" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;1.3.3.1.時間序列分析: 將連續的關鍵點位置變化視為時間序列數據&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="19O4f2Ru0PsyOeLuIM_t-138" vertex="1">
+          <mxGeometry x="462.6" y="190" width="430" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-103" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;1.3.3.2.機器學習模型: 使用深度學習模型（如CNNs, RNNs）來分析這些時間序列數據，從而識別特定動作&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-138">
-          <mxGeometry x="460.6" y="255" width="670" height="35" as="geometry" />
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-103" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;1.3.3.2.機器學習模型: 使用深度學習模型（如CNNs, RNNs）來分析這些時間序列數據，從而識別特定動作&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="19O4f2Ru0PsyOeLuIM_t-138" vertex="1">
+          <mxGeometry x="452.6" y="255" width="670" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-104" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;1.3.4. 決策與反饋&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-138">
-          <mxGeometry x="201.10000000000002" y="350" width="211" height="35" as="geometry" />
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-104" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;1.3.4. 決策與反饋&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="19O4f2Ru0PsyOeLuIM_t-138" vertex="1">
+          <mxGeometry x="200.60000000000002" y="350" width="211" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-105" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-138">
-          <mxGeometry x="412.1" y="342.5" width="50" height="57.5" as="geometry" />
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-105" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="19O4f2Ru0PsyOeLuIM_t-138" vertex="1">
+          <mxGeometry x="411.6" y="342.5" width="50" height="57.5" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-106" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;1.3.4.1.動作分類: 將識別出的動作分類（如坐下、站立、走動）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-138">
-          <mxGeometry x="462.1" y="317.5" width="408.5" height="35" as="geometry" />
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-106" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;1.3.4.1.動作分類: 將識別出的動作分類（如坐下、站立、走動）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="19O4f2Ru0PsyOeLuIM_t-138" vertex="1">
+          <mxGeometry x="461.6" y="317.5" width="408.5" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-107" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;1.3.4.2.上下文分析: 結合場景上下文（如位置、時間）來提供更精確的分析&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-138">
-          <mxGeometry x="462.1" y="382.5" width="468.5" height="35" as="geometry" />
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-107" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;1.3.4.2.上下文分析: 結合場景上下文（如位置、時間）來提供更精確的分析&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="19O4f2Ru0PsyOeLuIM_t-138" vertex="1">
+          <mxGeometry x="461.6" y="382.5" width="468.5" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-108" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;1.3.5. 數據儲存&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-138">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-108" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;1.3.5. 數據儲存&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="19O4f2Ru0PsyOeLuIM_t-138" vertex="1">
           <mxGeometry x="200.60000000000002" y="450" width="210" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-109" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;1.3.5.1.儲存處理結果: 將動作識別的結果儲存在資料庫中，以供後續的分析與查詢&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-138">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-109" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;1.3.5.1.儲存處理結果: 將動作識別的結果儲存在資料庫中，以供後續的分析與查詢&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="19O4f2Ru0PsyOeLuIM_t-138" vertex="1">
           <mxGeometry x="461.1" y="450" width="510" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-110" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="19O4f2Ru0PsyOeLuIM_t-138" target="19O4f2Ru0PsyOeLuIM_t-109">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-110" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" parent="19O4f2Ru0PsyOeLuIM_t-138" target="19O4f2Ru0PsyOeLuIM_t-109" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="410.6" y="468" as="sourcePoint" />
             <mxPoint x="435.6" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-139" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-139" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="229" y="370" width="1060" height="485" as="geometry" />
         </mxCell>
         <mxCell id="gahU3a6pric0zkKW1BDH-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.506;exitY=0.669;exitDx=0;exitDy=0;endArrow=none;endFill=0;strokeWidth=2;exitPerimeter=0;startSize=6;" parent="19O4f2Ru0PsyOeLuIM_t-139" edge="1">
@@ -110,259 +110,259 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;1.2 人臉辨識&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-139">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;1.2 人臉辨識&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="19O4f2Ru0PsyOeLuIM_t-139" vertex="1">
           <mxGeometry x="1" y="205" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-59" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;1.2.1 連接攝影機與串流處裡&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-139">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-59" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;1.2.1 連接攝影機與串流處裡&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="19O4f2Ru0PsyOeLuIM_t-139" vertex="1">
           <mxGeometry x="201" width="220" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-62" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-139">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-62" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="19O4f2Ru0PsyOeLuIM_t-139" vertex="1">
           <mxGeometry x="151" y="15" width="50" height="425" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-64" value="" style="endArrow=none;html=1;rounded=0;entryX=0.991;entryY=0.296;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="19O4f2Ru0PsyOeLuIM_t-139">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-64" value="" style="endArrow=none;html=1;rounded=0;entryX=0.991;entryY=0.296;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" parent="19O4f2Ru0PsyOeLuIM_t-139" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="176" y="307.5" as="sourcePoint" />
             <mxPoint x="200" y="307.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-65" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-139">
-          <mxGeometry x="416" y="91.25" width="55" height="98.75" as="geometry" />
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-65" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="19O4f2Ru0PsyOeLuIM_t-139" vertex="1">
+          <mxGeometry x="410" y="91.25" width="55" height="98.75" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-73" value="" style="group" vertex="1" connectable="0" parent="19O4f2Ru0PsyOeLuIM_t-139">
-          <mxGeometry x="176" y="122.5" width="240" height="35" as="geometry" />
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-73" value="" style="group" parent="19O4f2Ru0PsyOeLuIM_t-139" vertex="1" connectable="0">
+          <mxGeometry x="176" y="122.5" width="234" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-60" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;1.2.2 人臉檢測與定位&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-73">
-          <mxGeometry x="25" width="215" height="35" as="geometry" />
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-60" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;1.2.2 人臉檢測與定位&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="19O4f2Ru0PsyOeLuIM_t-73" vertex="1">
+          <mxGeometry x="24.375" width="209.625" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-63" value="" style="endArrow=none;html=1;rounded=0;entryX=0.991;entryY=0.296;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="19O4f2Ru0PsyOeLuIM_t-73">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-63" value="" style="endArrow=none;html=1;rounded=0;entryX=0.991;entryY=0.296;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" parent="19O4f2Ru0PsyOeLuIM_t-73" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint y="15" as="sourcePoint" />
-            <mxPoint x="24" y="15" as="targetPoint" />
+            <mxPoint x="23.4" y="15" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-74" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;1.2.2.1 使用適當的視覺感測裝置擷取靜態圖像或動態影片中的人&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;臉區域&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-139">
-          <mxGeometry x="471" y="75" width="455" height="35" as="geometry" />
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-74" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;1.2.2.1 使用適當的視覺感測裝置擷取靜態圖像或動態影片中的人&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;臉區域&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="19O4f2Ru0PsyOeLuIM_t-139" vertex="1">
+          <mxGeometry x="465" y="75" width="455" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-75" value="" style="endArrow=none;html=1;rounded=0;entryX=0.991;entryY=0.296;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="19O4f2Ru0PsyOeLuIM_t-139">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-75" value="" style="endArrow=none;html=1;rounded=0;entryX=0.991;entryY=0.296;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" parent="19O4f2Ru0PsyOeLuIM_t-139" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="444" y="140.34000000000003" as="sourcePoint" />
-            <mxPoint x="471" y="140.34000000000003" as="targetPoint" />
+            <mxPoint x="438" y="140.34000000000003" as="sourcePoint" />
+            <mxPoint x="465" y="140.34000000000003" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-78" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;1.2.2.2 使用深度學習模型進行人臉檢測&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-139">
-          <mxGeometry x="471" y="123.13" width="260" height="35" as="geometry" />
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-78" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;1.2.2.2 使用深度學習模型進行人臉檢測&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="19O4f2Ru0PsyOeLuIM_t-139" vertex="1">
+          <mxGeometry x="465" y="123.13" width="260" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-79" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;1.2.2.3 回傳人臉框座標資訊&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-139">
-          <mxGeometry x="471" y="170" width="190" height="35" as="geometry" />
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-79" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;1.2.2.3 回傳人臉框座標資訊&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="19O4f2Ru0PsyOeLuIM_t-139" vertex="1">
+          <mxGeometry x="465" y="170" width="190" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-80" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;1.2.3 人臉特徵提取&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-139">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-80" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;1.2.3 人臉特徵提取&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="19O4f2Ru0PsyOeLuIM_t-139" vertex="1">
           <mxGeometry x="200" y="287.5" width="210" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-81" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-139">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-81" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="19O4f2Ru0PsyOeLuIM_t-139" vertex="1">
           <mxGeometry x="410" y="256.25" width="55" height="98.75" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-82" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;div&gt;&amp;nbsp;1.2.3.1 對檢測到的人臉圖片進行預處理&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-139">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-82" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;div&gt;&amp;nbsp;1.2.3.1 對檢測到的人臉圖片進行預處理&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="19O4f2Ru0PsyOeLuIM_t-139" vertex="1">
           <mxGeometry x="465" y="240" width="265" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-83" value="" style="endArrow=none;html=1;rounded=0;entryX=0.991;entryY=0.296;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="19O4f2Ru0PsyOeLuIM_t-139">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-83" value="" style="endArrow=none;html=1;rounded=0;entryX=0.991;entryY=0.296;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" parent="19O4f2Ru0PsyOeLuIM_t-139" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="438" y="305.34000000000003" as="sourcePoint" />
             <mxPoint x="465" y="305.34000000000003" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-84" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;1.2.3.2 將擷取的人臉圖像轉換成特徵向量，使用深度學習模型的卷積層&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;來捕捉人臉的關鍵特徵&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-139">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-84" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;1.2.3.2 將擷取的人臉圖像轉換成特徵向量，使用深度學習模型的卷積層&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;來捕捉人臉的關鍵特徵&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="19O4f2Ru0PsyOeLuIM_t-139" vertex="1">
           <mxGeometry x="465" y="288.13" width="595" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-85" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;1.2.3.3 將特徵向量標準化&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-139">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-85" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;1.2.3.3 將特徵向量標準化&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="19O4f2Ru0PsyOeLuIM_t-139" vertex="1">
           <mxGeometry x="465" y="335" width="190" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-86" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;1.2.4 人臉資料庫比對辨識&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-139">
-          <mxGeometry x="203" y="420" width="208" height="35" as="geometry" />
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-86" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;1.2.4 人臉資料庫比對辨識&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="19O4f2Ru0PsyOeLuIM_t-139" vertex="1">
+          <mxGeometry x="201" y="420" width="208" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-87" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-139">
-          <mxGeometry x="412.5" y="408.75" width="50" height="57.5" as="geometry" />
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-87" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="19O4f2Ru0PsyOeLuIM_t-139" vertex="1">
+          <mxGeometry x="409" y="408.75" width="61" height="57.5" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-88" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;1.2.4.1 將檢測人臉特徵與資料庫特徵進行比對&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-139">
-          <mxGeometry x="462.5" y="390" width="298.5" height="35" as="geometry" />
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-88" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;1.2.4.1 將檢測人臉特徵與資料庫特徵進行比對&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="19O4f2Ru0PsyOeLuIM_t-139" vertex="1">
+          <mxGeometry x="465" y="390" width="298.5" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-89" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;1.2.4.2 回傳最匹配人臉標識訊息&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-139">
-          <mxGeometry x="462.5" y="450" width="218" height="35" as="geometry" />
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-89" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;1.2.4.2 回傳最匹配人臉標識訊息&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="19O4f2Ru0PsyOeLuIM_t-139" vertex="1">
+          <mxGeometry x="465" y="450" width="218" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-140" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-140" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="230" y="-100" width="1146" height="427.5" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;1.1 登入與管理介面&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-140">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;1.1 登入與管理介面&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="19O4f2Ru0PsyOeLuIM_t-140" vertex="1">
           <mxGeometry y="150" width="150" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-6" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-140">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-6" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="19O4f2Ru0PsyOeLuIM_t-140" vertex="1">
           <mxGeometry x="150" y="60" width="50" height="215" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;1.1.1 登入介面&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-140">
-          <mxGeometry x="200" y="45" width="220" height="35" as="geometry" />
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;1.1.1 登入介面&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="19O4f2Ru0PsyOeLuIM_t-140" vertex="1">
+          <mxGeometry x="200" y="43" width="220" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-9" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-140">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-9" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="19O4f2Ru0PsyOeLuIM_t-140" vertex="1">
           <mxGeometry x="420" width="50" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-13" value="" style="endArrow=none;html=1;rounded=0;entryX=0.991;entryY=0.296;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="19O4f2Ru0PsyOeLuIM_t-140">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-13" value="" style="endArrow=none;html=1;rounded=0;entryX=0.991;entryY=0.296;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" parent="19O4f2Ru0PsyOeLuIM_t-140" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="445" y="40" as="sourcePoint" />
             <mxPoint x="470" y="40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-17" value="" style="endArrow=none;html=1;rounded=0;entryX=0.991;entryY=0.296;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="19O4f2Ru0PsyOeLuIM_t-140">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-17" value="" style="endArrow=none;html=1;rounded=0;entryX=0.991;entryY=0.296;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" parent="19O4f2Ru0PsyOeLuIM_t-140" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="446" y="84" as="sourcePoint" />
             <mxPoint x="470" y="84" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-27" value="" style="group" vertex="1" connectable="0" parent="19O4f2Ru0PsyOeLuIM_t-140">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-27" value="" style="group" parent="19O4f2Ru0PsyOeLuIM_t-140" vertex="1" connectable="0">
           <mxGeometry x="470" y="110" width="230" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-27">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="19O4f2Ru0PsyOeLuIM_t-27" vertex="1">
           <mxGeometry width="220.00000000000003" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-21" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;1.1.1.4 記錄和監控:紀錄登入活動&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-27">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-21" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;1.1.1.4 記錄和監控:紀錄登入活動&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="19O4f2Ru0PsyOeLuIM_t-27" vertex="1">
           <mxGeometry y="4.375" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-29" value="" style="group" vertex="1" connectable="0" parent="19O4f2Ru0PsyOeLuIM_t-140">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-29" value="" style="group" parent="19O4f2Ru0PsyOeLuIM_t-140" vertex="1" connectable="0">
           <mxGeometry x="465" y="66" width="501" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-29">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="19O4f2Ru0PsyOeLuIM_t-29" vertex="1">
           <mxGeometry x="5.112244897959183" width="480.55102040816325" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-19" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; 1.1.1.3 記住我/自動登入功能:讓使用者可以選擇是否在下次訪問時自動登入&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-29">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-19" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; 1.1.1.3 記住我/自動登入功能:讓使用者可以選擇是否在下次訪問時自動登入&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="19O4f2Ru0PsyOeLuIM_t-29" vertex="1">
           <mxGeometry x="-10.224489795918366" y="5" width="500" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-32" value="" style="group" vertex="1" connectable="0" parent="19O4f2Ru0PsyOeLuIM_t-140">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-32" value="" style="group" parent="19O4f2Ru0PsyOeLuIM_t-140" vertex="1" connectable="0">
           <mxGeometry x="465" y="23" width="480" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-30" value="" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-32">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-30" value="" style="rounded=0;whiteSpace=wrap;html=1;container=0;" parent="19O4f2Ru0PsyOeLuIM_t-32" vertex="1">
           <mxGeometry x="5" width="460" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-14" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;1.1.1.2 忘記密碼功能:讓使用者透過電子郵件或其他方式重置忘記的密碼&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;container=0;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-32">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-14" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;1.1.1.2 忘記密碼功能:讓使用者透過電子郵件或其他方式重置忘記的密碼&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;container=0;" parent="19O4f2Ru0PsyOeLuIM_t-32" vertex="1">
           <mxGeometry y="4.374204545454546" width="470" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-28" value="" style="group" vertex="1" connectable="0" parent="19O4f2Ru0PsyOeLuIM_t-32">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-28" value="" style="group" parent="19O4f2Ru0PsyOeLuIM_t-32" vertex="1" connectable="0">
           <mxGeometry y="-43" width="480" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-28">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="19O4f2Ru0PsyOeLuIM_t-28" vertex="1">
           <mxGeometry x="5" width="470" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-11" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;1.1.1.1&amp;nbsp;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;使用者名稱欄位、密碼登入:提供使用者輸入其帳、密碼的登入地方&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;container=1;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-28">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-11" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;1.1.1.1&amp;nbsp;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;使用者名稱欄位、密碼登入:提供使用者輸入其帳、密碼的登入地方&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;container=1;" parent="19O4f2Ru0PsyOeLuIM_t-28" vertex="1">
           <mxGeometry y="2.5" width="480" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-33" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;1.1.2 管理介面&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-140">
-          <mxGeometry x="200" y="260" width="220" height="35" as="geometry" />
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-33" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;1.1.2 管理介面&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="19O4f2Ru0PsyOeLuIM_t-140" vertex="1">
+          <mxGeometry x="200" y="258" width="220" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-35" value="&lt;p style=&quot;line-height:2.4;margin-top:12pt;margin-bottom:12pt;&quot; dir=&quot;ltr&quot;&gt;&lt;/p&gt;&lt;div&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 11pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;1.1.2.1 系統開關:啟動或關閉系統&lt;/font&gt;&lt;/span&gt;&lt;p&gt;&lt;/p&gt;&lt;font face=&quot;BqET_qS2w6ujs9ruTQv2&quot;&gt;&lt;span id=&quot;docs-internal-guid-f09037b2-7fff-b419-8c34-c27e23c4323b&quot;&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-140">
-          <mxGeometry x="470" y="210" width="246" height="35" as="geometry" />
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-35" value="&lt;p style=&quot;line-height:2.4;margin-top:12pt;margin-bottom:12pt;&quot; dir=&quot;ltr&quot;&gt;&lt;/p&gt;&lt;div&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 11pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;1.1.2.1 系統開關:啟動或關閉系統&lt;/font&gt;&lt;/span&gt;&lt;p&gt;&lt;/p&gt;&lt;font face=&quot;BqET_qS2w6ujs9ruTQv2&quot;&gt;&lt;span id=&quot;docs-internal-guid-f09037b2-7fff-b419-8c34-c27e23c4323b&quot;&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="19O4f2Ru0PsyOeLuIM_t-140" vertex="1">
+          <mxGeometry x="470" y="208" width="246" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-36" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-140">
-          <mxGeometry x="420" y="230" width="50" height="100" as="geometry" />
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-36" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="19O4f2Ru0PsyOeLuIM_t-140" vertex="1">
+          <mxGeometry x="420" y="226" width="50" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-39" value="&lt;font face=&quot;Helvetica&quot; style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;&amp;nbsp;1.1.2.2 資料庫管理&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;container=0;align=left;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-140">
-          <mxGeometry x="470" y="310" width="246" height="35" as="geometry" />
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-39" value="&lt;font face=&quot;Helvetica&quot; style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;&amp;nbsp;1.1.2.2 資料庫管理&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;container=0;align=left;" parent="19O4f2Ru0PsyOeLuIM_t-140" vertex="1">
+          <mxGeometry x="470" y="309" width="246" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-43" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-140">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-43" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="19O4f2Ru0PsyOeLuIM_t-140" vertex="1">
           <mxGeometry x="716" y="247.5" width="50" height="165" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-44" value="" style="endArrow=none;html=1;rounded=0;entryX=0.991;entryY=0.296;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="19O4f2Ru0PsyOeLuIM_t-140">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-44" value="" style="endArrow=none;html=1;rounded=0;entryX=0.991;entryY=0.296;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" parent="19O4f2Ru0PsyOeLuIM_t-140" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="741" y="287.5" as="sourcePoint" />
             <mxPoint x="766" y="287.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-45" value="" style="endArrow=none;html=1;rounded=0;entryX=0.991;entryY=0.296;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="19O4f2Ru0PsyOeLuIM_t-140">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-45" value="" style="endArrow=none;html=1;rounded=0;entryX=0.991;entryY=0.296;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" parent="19O4f2Ru0PsyOeLuIM_t-140" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="742" y="329.9" as="sourcePoint" />
             <mxPoint x="766" y="329.9" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-50" value="" style="group" vertex="1" connectable="0" parent="19O4f2Ru0PsyOeLuIM_t-140">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-50" value="" style="group" parent="19O4f2Ru0PsyOeLuIM_t-140" vertex="1" connectable="0">
           <mxGeometry x="766" y="232.5" width="340" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-49" value="" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-50">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-49" value="" style="rounded=0;whiteSpace=wrap;html=1;container=0;" parent="19O4f2Ru0PsyOeLuIM_t-50" vertex="1">
           <mxGeometry x="0.0046153846153629274" width="330" height="30.622159551668577" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-48" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;1.1.2.2.1 資料庫連線設定:使用者連接資料庫的地方&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-50">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-48" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;1.1.2.2.1 資料庫連線設定:使用者連接資料庫的地方&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="19O4f2Ru0PsyOeLuIM_t-50" vertex="1">
           <mxGeometry x="-4.998484848484846" y="0.6178404483314273" width="340" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-51" value="" style="endArrow=none;html=1;rounded=0;entryX=0.991;entryY=0.296;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="19O4f2Ru0PsyOeLuIM_t-140">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-51" value="" style="endArrow=none;html=1;rounded=0;entryX=0.991;entryY=0.296;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" parent="19O4f2Ru0PsyOeLuIM_t-140" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="742" y="372.50000000000006" as="sourcePoint" />
             <mxPoint x="766" y="372.50000000000006" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-54" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; 1.1.2.2.2 資料庫檢視:進入檢視資料庫的資料&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-140">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-54" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; 1.1.2.2.2 資料庫檢視:進入檢視資料庫的資料&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="19O4f2Ru0PsyOeLuIM_t-140" vertex="1">
           <mxGeometry x="766" y="272.5" width="290" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-55" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; 1.1.2.2.3 資料庫備份和還原:備份資料與還原已備分的資料&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-140">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-55" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; 1.1.2.2.3 資料庫備份和還原:備份資料與還原已備分的資料&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="19O4f2Ru0PsyOeLuIM_t-140" vertex="1">
           <mxGeometry x="766" y="312.5" width="380" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-56" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;1.1.2.2.4 使用者權限管理:管理使用者帳戶和設定不同的權限&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-140">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-56" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;1.1.2.2.4 使用者權限管理:管理使用者帳戶和設定不同的權限&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="19O4f2Ru0PsyOeLuIM_t-140" vertex="1">
           <mxGeometry x="766" y="352.5" width="380" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-57" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;1.1.2.2.5 異常檢測和日誌:檢測資料庫異常和記錄事件&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-140">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-57" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;1.1.2.2.5 異常檢測和日誌:檢測資料庫異常和記錄事件&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="19O4f2Ru0PsyOeLuIM_t-140" vertex="1">
           <mxGeometry x="766" y="392.5" width="340" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;1.4&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;資料庫&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;1.4&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;資料庫&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="230" y="1815" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-99" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;1.4.2 儲存影片: 觸發Lambda向DynamoDB表格中插入資料&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="430" y="1710" width="380" height="35" as="geometry" />
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-99" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;1.4.2 儲存影片: 觸發Lambda向DynamoDB表格中插入資料&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="430" y="1714" width="380" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-113" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px; background-color: initial;&quot;&gt;&amp;nbsp; 1.4.1 創建表格: 創建表格，定義表格的主鍵、排序鍵和其他屬性&lt;/span&gt;&lt;/div&gt;&lt;span id=&quot;docs-internal-guid-ab34a807-7fff-c0c9-5e97-c4adc451ce34&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="432" y="1620" width="412" height="35" as="geometry" />
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-113" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px; background-color: initial;&quot;&gt;&amp;nbsp; 1.4.1 創建表格: 創建表格，定義表格的主鍵、排序鍵和其他屬性&lt;/span&gt;&lt;/div&gt;&lt;span id=&quot;docs-internal-guid-ab34a807-7fff-c0c9-5e97-c4adc451ce34&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="430" y="1622" width="412" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-114" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-114" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="1640" width="50" height="390" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-115" value="" style="endArrow=none;html=1;rounded=0;entryX=0.991;entryY=0.296;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="1">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-115" value="" style="endArrow=none;html=1;rounded=0;entryX=0.991;entryY=0.296;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="405" y="1732.5" as="sourcePoint" />
             <mxPoint x="430" y="1732.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-127" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-127" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="406" y="1817.5" width="254" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-116" value="" style="endArrow=none;html=1;rounded=0;entryX=0.991;entryY=0.296;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="19O4f2Ru0PsyOeLuIM_t-127">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-116" value="" style="endArrow=none;html=1;rounded=0;entryX=0.991;entryY=0.296;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" parent="19O4f2Ru0PsyOeLuIM_t-127" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint y="17.13000000000011" as="sourcePoint" />
             <mxPoint x="24" y="17.13000000000011" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-119" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;1.4.3 查詢資料: 從表格中檢索資料&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-127">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-119" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;1.4.3 查詢資料: 從表格中檢索資料&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="19O4f2Ru0PsyOeLuIM_t-127" vertex="1">
           <mxGeometry x="23" width="231" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-124" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;1.4.6 其餘特點&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-124" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;1.4.6 其餘特點&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="429" y="2010" width="301" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-129" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-129" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="1" vertex="1">
           <mxGeometry x="730" y="1998.75" width="50" height="57.5" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-131" value="&amp;nbsp;&lt;font style=&quot;font-size: 14px;&quot;&gt;1.4.6.1 資料庫正規化&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-131" value="&amp;nbsp;&lt;font style=&quot;font-size: 14px;&quot;&gt;1.4.6.1 資料庫正規化&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="780" y="1985" width="139" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-132" value="&amp;nbsp;&lt;font style=&quot;font-size: 14px;&quot;&gt;1.4.6.2 使用 Global Secondary Index (GSI)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-132" value="&amp;nbsp;&lt;font style=&quot;font-size: 14px;&quot;&gt;1.4.6.2 使用 Global Secondary Index (GSI)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="780" y="2040" width="280" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-133" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
-          <mxGeometry x="845" y="1613.75" width="50" height="57.5" as="geometry" />
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-133" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="1" vertex="1">
+          <mxGeometry x="842" y="1613.75" width="50" height="57.5" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-134" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;1.4.1.1主鍵的選擇&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="895" y="1600" width="139" height="35" as="geometry" />
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-134" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;1.4.1.1主鍵的選擇&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="892" y="1600" width="139" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-135" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;1.4.1.2 分割鍵的選擇&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="895" y="1655" width="145" height="35" as="geometry" />
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-135" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;1.4.1.2 分割鍵的選擇&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="892" y="1655" width="145" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-141" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-141" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="406" y="1910" width="326" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-121" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;1.4.5 掃描表格: 掃描整個表格以獲取所有資料&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="19O4f2Ru0PsyOeLuIM_t-141">
-          <mxGeometry x="26" width="300" height="35" as="geometry" />
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-121" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;1.4.5 掃描表格: 掃描整個表格以獲取所有資料&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="19O4f2Ru0PsyOeLuIM_t-141" vertex="1">
+          <mxGeometry x="25" width="300" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="19O4f2Ru0PsyOeLuIM_t-125" value="" style="endArrow=none;html=1;rounded=0;entryX=0.991;entryY=0.296;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="19O4f2Ru0PsyOeLuIM_t-141">
+        <mxCell id="19O4f2Ru0PsyOeLuIM_t-125" value="" style="endArrow=none;html=1;rounded=0;entryX=0.991;entryY=0.296;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" parent="19O4f2Ru0PsyOeLuIM_t-141" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint y="20" as="sourcePoint" />
             <mxPoint x="25" y="20" as="targetPoint" />
