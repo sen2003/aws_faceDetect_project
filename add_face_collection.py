@@ -2,7 +2,7 @@
 import boto3
 
 
-def add_faces_collection(bucket, photo, collection_id,external_image_id):
+def add_faces_collection(bucket, photo, collection_id, external_image_id):
     session = boto3.Session(profile_name='default')
     client = session.client('rekognition')
 
@@ -53,11 +53,11 @@ def main():
     collection_id = 'myCollection1'
 
     photos = list_photos(bucket)  # 獲取s3中所有照片的列表
-    external_image_ids=["黃士熏",'柯信汶','沈宏勳','鄒博森']
+    external_image_ids = ["Huang", 'Ke', 'Shen', 'Tsou']
     total_indexed_faces = 0
-    for photo,external_image_id in zip(photos,external_image_ids):
+    for photo, external_image_id in zip(photos, external_image_ids):
         indexed_faces_count = add_faces_collection(
-            bucket, photo, collection_id,external_image_id)
+            bucket, photo, collection_id, external_image_id)
         print(f"Faces indexed count for {photo}: {indexed_faces_count}")
         total_indexed_faces += indexed_faces_count
 
