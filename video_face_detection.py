@@ -185,7 +185,7 @@ def DrawBoundingBox(bucket, objectName, boxes):
     img_width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
     img_height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 
-    fourcc = cv2.VideoWriter_fourcc('m', 'p', '4', 'v')
+    fourcc = cv2.VideoWriter_fourcc(*'mp4v')
     video = cv2.VideoWriter('./output.mp4', fourcc,
                             fps, (img_width, img_height))
 

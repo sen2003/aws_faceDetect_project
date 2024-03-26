@@ -1,0 +1,92 @@
+[
+    {
+        "Timestamp": 23,
+        "FaceId": "c0b65934-ad33-4837-941e-bbaaa9055640",
+        "Similarity": 99.94144439697266,
+        "Name": "黃士熏"
+    },
+    {
+        "Timestamp": 505,
+        "FaceId": "c0b65934-ad33-4837-941e-bbaaa9055640",
+        "Similarity": 99.9992446899414,
+        "Name": "黃士熏"
+    },
+    {
+        "Timestamp": 987,
+        "FaceId": "c0b65934-ad33-4837-941e-bbaaa9055640",
+        "Similarity": 99.9996566772461,
+        "Name": "黃士熏"
+    },
+    {
+        "Timestamp": 1510,
+        "FaceId": "c0b65934-ad33-4837-941e-bbaaa9055640",
+        "Similarity": 99.99967956542969,
+        "Name": "黃士熏"
+    },
+    {
+        "Timestamp": 1992,
+        "FaceId": "c0b65934-ad33-4837-941e-bbaaa9055640",
+        "Similarity": 99.99983978271484,
+        "Name": "黃士熏"
+    },
+    {
+        "Timestamp": 2515,
+        "FaceId": "c0b65934-ad33-4837-941e-bbaaa9055640",
+        "Similarity": 99.99993133544922,
+        "Name": "黃士熏"
+    },
+    {
+        "Timestamp": 2997,
+        "FaceId": "c0b65934-ad33-4837-941e-bbaaa9055640",
+        "Similarity": 99.99990844726562,
+        "Name": "黃士熏"
+    },
+    {
+        "Timestamp": 3520,
+        "FaceId": "c0b65934-ad33-4837-941e-bbaaa9055640",
+        "Similarity": 99.99992370605469,
+        "Name": "黃士熏"
+    },
+    {
+        "Timestamp": 4002,
+        "FaceId": "c0b65934-ad33-4837-941e-bbaaa9055640",
+        "Similarity": 99.9999771118164,
+        "Name": "黃士熏"
+    },
+    {
+        "Timestamp": 4484,
+        "FaceId": "c0b65934-ad33-4837-941e-bbaaa9055640",
+        "Similarity": 99.99998474121094,
+        "Name": "黃士熏"
+    },
+    {
+        "Timestamp": 5007,
+        "FaceId": "c0b65934-ad33-4837-941e-bbaaa9055640",
+        "Similarity": 99.99998474121094,
+        "Name": "黃士熏"
+    },
+    {
+        "Timestamp": 5489,
+        "FaceId": "c0b65934-ad33-4837-941e-bbaaa9055640",
+        "Similarity": 99.99998474121094,
+        "Name": "黃士熏"
+    },
+    {
+        "Timestamp": 6012,
+        "FaceId": "f3794e74-db59-4082-bdf1-dfc8a452a83e",
+        "Similarity": 99.99989318847656,
+        "Name": "沈宏勳"
+    },
+    {
+        "Timestamp": 6494,
+        "FaceId": "f3794e74-db59-4082-bdf1-dfc8a452a83e",
+        "Similarity": 99.99987030029297,
+        "Name": "沈宏勳"
+    },
+    {
+        "Timestamp": 7017,
+        "FaceId": "f3794e74-db59-4082-bdf1-dfc8a452a83e",
+        "Similarity": 99.74776458740234,
+        "Name": "沈宏勳"
+    }
+]
