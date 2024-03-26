@@ -123,20 +123,14 @@ class VideoDetect:
                 if 'FaceMatches' in personMatch and len(personMatch['FaceMatches']) > 0:
                     for faceMatch in personMatch['FaceMatches']:
                         face = faceMatch['Face']
-
                         print("   Face ID: " + face['FaceId'])
                         print("   相似度: " + str(faceMatch['Similarity']))
-                        print(
-                            f"   姓名: {chinese_name(face['ExternalImageId'])}")
-                        # print("   Bounding Box:")
-                        # print("       Top: " + str(face['BoundingBox']['Top']))
-                        # print("       Left: " +
-                        #       str(face['BoundingBox']['Left']))
-                        # print("       Width: " +
-                        #       str(face['BoundingBox']['Width']))
-                        # print("       Height: " +
-                        #       str(face['BoundingBox']['Height']))
-                        # print()
+                        print(f"   姓名: {chinese_name(face['ExternalImageId'])}")
+                        print(f"   性別: {face['Gender']['Value']}")
+                        print(f"   年齡區間: {face['AgeRange']['Low']}~{face['AgeRange']['High']}")
+                        print(f"   是否配戴眼鏡: {face['Person']['Eyeglasses']}")
+                        print(f"   情绪: {', '.join([emotion['Type'] for emotion in face['Emotions']])}")
+                                                
                 else:
                     print("   警告!未知人臉")
                     print()
@@ -207,8 +201,8 @@ class VideoDetect:
 def main():
 
     roleArn = 'arn:aws:iam::637423267378:role/LabRole'
-    bucket = ''
-    video_s3 = ''
+    bucket = 'lab-video-search'
+    video_s3 = 'video_detect03.mp4'
 
     session = boto3.Session(profile_name='default')
     client = session.client('rekognition')
