@@ -1,9 +1,10 @@
-# 偵測影片中的人臉，列出各項屬性
 import boto3
 import json
 import sys
 import time
-import cv2
+
+
+results = []
 
 
 def words_convert(word):
@@ -22,6 +23,16 @@ def words_convert(word):
     return word_map.get(word, "unknow")
 
 
+def chinese_name(externalImageId):
+    name_map = {
+        "Huang": "黃士熏",
+        "Ke": "柯信汶",
+        "Shen": "沈宏勳",
+        "Tsou": "鄒博森"
+    }
+    return name_map.get(externalImageId, "Unknow person")
+
+
 class VideoDetect:
 
     jobId = ''
@@ -29,7 +40,8 @@ class VideoDetect:
     roleArn = ''
     bucket = ''
     video = ''
-    startJobId = ''
+    startJobId_search = ''
+    startJobId_detection = ''
 
     sqsQueueUrl = ''
     snsTopicArn = ''
@@ -72,7 +84,11 @@ class VideoDetect:
                     rekMessage = json.loads(notification['Message'])
                     print(rekMessage['JobId'])
                     print(rekMessage['Status'])
-                    if rekMessage['JobId'] == self.startJobId:
+                    # JobId=[self.startJobId_detection,self.startJobId_search]
+                    JobId_detection = self.startJobId_detection
+                    JobId_search = self.startJobId_search
+                    jobId_to_use = JobId_detection if rekMessage['JobId'] == JobId_detection else JobId_search
+                    if rekMessage['JobId'] in [JobId_detection, JobId_search]:
                         print('Matching Job Found:' + rekMessage['JobId'])
                         jobFound = True
                         if (rekMessage['Status'] == 'SUCCEEDED'):
@@ -82,28 +98,43 @@ class VideoDetect:
                                                 ReceiptHandle=message['ReceiptHandle'])
                     else:
                         print("Job didn't match:" +
-                              str(rekMessage['JobId']) + ' : ' + self.startJobId)
+                              str(rekMessage['JobId']) + ' : ' + jobId_to_use)
                     # Delete the unknown message. Consider sending to dead letter queue
                     self.sqs.delete_message(QueueUrl=self.sqsQueueUrl,
                                             ReceiptHandle=message['ReceiptHandle'])
-
         return succeeded
 
     def StartFaceDetection(self):
         response = self.rek.start_face_detection(Video={'S3Object': {'Bucket': self.bucket, 'Name': self.video}},
                                                  NotificationChannel={'RoleArn': self.roleArn, 'SNSTopicArn': self.snsTopicArn}, FaceAttributes='ALL')
 
-        self.startJobId = response['JobId']
-        print('Start Job Id: ' + self.startJobId)
+        self.startJobId_detection = response['JobId']
+        print('Start Job Id(detection): ' + self.startJobId_detection)
+
+    def StartFaceSearchCollection(self, collection):
+        response = self.rek.start_face_search(Video={'S3Object': {'Bucket': self.bucket, 'Name': self.video}},
+                                              CollectionId=collection,
+                                              NotificationChannel={'RoleArn': self.roleArn,
+                                                                   'SNSTopicArn': self.snsTopicArn},
+                                              FaceMatchThreshold=0,
+                                              # Filtration options, uncomment and add desired labels to filter returned labels
+                                              # Features=['GENERAL_LABELS'],
+                                              # Settings={
+                                              # 'GeneralLabels': {
+                                              # 'LabelInclusionFilters': ['Clothing']
+                                              # }}
+                                              )
+
+        self.startJobId_search = response['JobId']
+        print('Start Job Id(search): ' + self.startJobId_search)
 
     def GetFaceDetectionResults(self):
         maxResults = 10
         paginationToken = ''
         finished = False
-        results = []
 
         while finished == False:
-            response = self.rek.get_face_detection(JobId=self.startJobId,
+            response = self.rek.get_face_detection(JobId=self.startJobId_detection,
                                                    MaxResults=maxResults,
                                                    NextToken=paginationToken
                                                    )
@@ -115,18 +146,11 @@ class VideoDetect:
             print('Frame rate: ' + str(response['VideoMetadata']['FrameRate']))
             print()
             for faceDetection in response['Faces']:
+
+                # print('Face: ' + str(faceDetection['Face']))
                 faceDetails = faceDetection['Face']
-                data = {
-                    "Timestamp": faceDetection['Timestamp'],
-                    "BoundingBox": {
-                        "Width": faceDetails['BoundingBox']['Width'],
-                        "Height": faceDetails['BoundingBox']['Height'],
-                        "Left": faceDetails['BoundingBox']['Left'],
-                        "Top": faceDetails['BoundingBox']['Top']
-                    }
-                }
-                results.append(data)
                 print(f"Confidence: {faceDetails['Confidence']:.2f}%")
+
                 print(f"Timestamp:  {str(faceDetection['Timestamp'])} (ms)")
                 print(
                     f"性別: {words_convert(str(faceDetails['Gender']['Value']))} ({faceDetails['Gender']['Confidence']:.2f}%)")
@@ -141,7 +165,45 @@ class VideoDetect:
                 paginationToken = response['NextToken']
             else:
                 finished = True
-        return results
+        # return results
+
+    def GetFaceSearchCollectionResults(self):
+        maxResults = 10
+        paginationToken = ''
+        video_info = False
+        finished = False
+        while finished == False:
+            response = self.rek.get_face_search(JobId=self.startJobId_search,
+                                                MaxResults=maxResults,
+                                                NextToken=paginationToken,
+                                                )
+            if not video_info:
+                print('Codec: ' + response['VideoMetadata']['Codec'])
+                print('Duration: ' +
+                      str(response['VideoMetadata']['DurationMillis']))
+                print('Format: ' + response['VideoMetadata']['Format'])
+                print('Frame rate: ' +
+                      str(response['VideoMetadata']['FrameRate']))
+                print()
+                video_info = True
+
+            for personMatch in response['Persons']:
+                print("Timestamp: " + str(personMatch['Timestamp']))
+                if 'FaceMatches' in personMatch and len(personMatch['FaceMatches']) > 0:
+                    for faceMatch in personMatch['FaceMatches']:
+                        face = faceMatch['Face']
+                        print("   Face ID: " + face['FaceId'])
+                        print("   相似度: " + str(faceMatch['Similarity']))
+                        print(
+                            f"   姓名: {chinese_name(face['ExternalImageId'])}")
+                        print()
+                else:
+                    print("   警告!未知人臉")
+                    print()
+                if 'NextToken' in response:
+                    paginationToken = response['NextToken']
+                else:
+                    finished = True
 
     def CreateTopicandQueue(self):
 
@@ -216,13 +278,15 @@ def main():
     analyzer = VideoDetect(roleArn, bucket, video, client, rek, sqs, sns)
     analyzer.CreateTopicandQueue()
 
+    collection = 'myCollection1'
     analyzer.StartFaceDetection()
+    analyzer.StartFaceSearchCollection(collection)
     if analyzer.GetSQSMessageSuccess() == True:
-        # analyzer.GetFaceDetectionResults()
-        results = analyzer.GetFaceDetectionResults()
-        results_json = json.dumps(results, indent=4, ensure_ascii=False)
-        with open('detection_boundingBox_results.json', 'w', encoding='utf-8') as f:
-            f.write(results_json)
+        analyzer.GetFaceDetectionResults()
+        analyzer.GetFaceSearchCollectionResults()
+
+        # bounding_boxes = analyzer.GetFaceDetectionResults()
+        # DrawBoundingBox(bucket, video, bounding_boxes)
     analyzer.DeleteTopicandQueue()
 
 

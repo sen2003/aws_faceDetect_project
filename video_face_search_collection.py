@@ -3,7 +3,7 @@ import boto3
 import json
 import sys
 import time
-import cv2
+import json
 
 
 def chinese_name(externalImageId):
@@ -103,6 +103,7 @@ class VideoDetect:
         paginationToken = ''
         video_info = False
         finished = False
+        results = []
         while finished == False:
             response = self.rek.get_face_search(JobId=self.startJobId,
                                                 MaxResults=maxResults,
@@ -119,26 +120,37 @@ class VideoDetect:
                 video_info = True
 
             for personMatch in response['Persons']:
+                face = personMatch["Person"]["Face"]
+                # bounding_box = face['BoundingBox']
+                data = {
+                    "Timestamp": personMatch['Timestamp'],
+                    "BoundingBox": face['BoundingBox']
+                }
+                results.append(data)
                 print("Timestamp: " + str(personMatch['Timestamp']))
                 if 'FaceMatches' in personMatch and len(personMatch['FaceMatches']) > 0:
                     for faceMatch in personMatch['FaceMatches']:
                         face = faceMatch['Face']
+
+                        # print("BoundingBox: ")
+                        # print(f"Width: {face['BoundingBox']['Width']}")
+                        # print(f"Heigh: {face['BoundingBox']['Heigh']}")
+                        # print(f"Left: {face['BoundingBox']['Left']}")
+                        # print(f"Top: {face['BoundingBox']['Top']}")
+
                         print("   Face ID: " + face['FaceId'])
                         print("   相似度: " + str(faceMatch['Similarity']))
-                        print(f"   姓名: {chinese_name(face['ExternalImageId'])}")
-                        print(f"   性別: {face['Gender']['Value']}")
-                        print(f"   年齡區間: {face['AgeRange']['Low']}~{face['AgeRange']['High']}")
-                        print(f"   是否配戴眼鏡: {face['Person']['Eyeglasses']}")
-                        print(f"   情绪: {', '.join([emotion['Type'] for emotion in face['Emotions']])}")
-                                                
+                        print(
+                            f"   姓名: {chinese_name(face['ExternalImageId'])}")
+                        print()
                 else:
-                    print("   警告!未知人臉")
+                    print("   未知人臉")
                     print()
-
                 if 'NextToken' in response:
                     paginationToken = response['NextToken']
                 else:
                     finished = True
+        return results
 
     def CreateTopicandQueue(self):
 
@@ -202,7 +214,7 @@ def main():
 
     roleArn = 'arn:aws:iam::637423267378:role/LabRole'
     bucket = 'lab-video-search'
-    video_s3 = 'video_detect03.mp4'
+    video_s3 = 'video_detect04.mp4'
 
     session = boto3.Session(profile_name='default')
     client = session.client('rekognition')
@@ -216,7 +228,11 @@ def main():
     collection = 'myCollection1'
     analyzer.StartFaceSearchCollection(collection)
     if analyzer.GetSQSMessageSuccess() == True:
-        analyzer.GetFaceSearchCollectionResults()
+        # analyzer.GetFaceSearchCollectionResults()
+        results = analyzer.GetFaceSearchCollectionResults()
+        results_json = json.dumps(results, indent=4, ensure_ascii=False)
+        with open('serach_boundingBox_results.json', 'w', encoding='utf-8') as f:
+            f.write(results_json)
 
     analyzer.DeleteTopicandQueue()
 
