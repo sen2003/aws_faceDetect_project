@@ -120,13 +120,8 @@ class VideoDetect:
                 video_info = True
 
             for personMatch in response['Persons']:
-                face = personMatch["Person"]["Face"]
+                personFace = personMatch["Person"]["Face"]
                 # bounding_box = face['BoundingBox']
-                data = {
-                    "Timestamp": personMatch['Timestamp'],
-                    "BoundingBox": face['BoundingBox']
-                }
-                results.append(data)
                 print("Timestamp: " + str(personMatch['Timestamp']))
                 if 'FaceMatches' in personMatch and len(personMatch['FaceMatches']) > 0:
                     for faceMatch in personMatch['FaceMatches']:
@@ -137,13 +132,26 @@ class VideoDetect:
                         # print(f"Heigh: {face['BoundingBox']['Heigh']}")
                         # print(f"Left: {face['BoundingBox']['Left']}")
                         # print(f"Top: {face['BoundingBox']['Top']}")
-
+                        match_data = {
+                            "Timestamp": personMatch['Timestamp'],
+                            "BoundingBox": personFace['BoundingBox'],
+                            "Name":chinese_name(face['ExternalImageId']),
+                            "Similarity":faceMatch['Similarity']
+                        }
+                        results.append(match_data)
                         print("   Face ID: " + face['FaceId'])
                         print("   相似度: " + str(faceMatch['Similarity']))
                         print(
                             f"   姓名: {chinese_name(face['ExternalImageId'])}")
                         print()
                 else:
+                    no_match_data={
+                        "Timestamp": personMatch['Timestamp'],
+                        "BoundingBox": personFace['BoundingBox'],
+                        "Name":"Unknow",
+                        "Similarity":"0.00%"
+                    }
+                    results.append(no_match_data)
                     print("   未知人臉")
                     print()
                 if 'NextToken' in response:
@@ -231,7 +239,7 @@ def main():
         # analyzer.GetFaceSearchCollectionResults()
         results = analyzer.GetFaceSearchCollectionResults()
         results_json = json.dumps(results, indent=4, ensure_ascii=False)
-        with open('serach_boundingBox_results.json', 'w', encoding='utf-8') as f:
+        with open('serach_results.json', 'w', encoding='utf-8') as f:
             f.write(results_json)
 
     analyzer.DeleteTopicandQueue()
