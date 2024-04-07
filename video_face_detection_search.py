@@ -4,6 +4,8 @@ import json
 import sys
 import time
 import cv2
+import numpy as np
+from PIL import Image, ImageDraw, ImageFont
 
 
 def word_convert(word):
@@ -309,7 +311,17 @@ class VideoDetect:
             #         f"Detection Timestamp: {detection['Timestamp_detection']} - No matching face found in search results.")
             #     print(
             #         "------------------------------------------------------------------------------------------------------------------")
-        return search_results_dict
+        # return search_results_dict
+
+
+def cv2ChineseText(img, text, position, textColor, textSize):
+    if (isinstance(img, np.ndarray)):
+        img = Image.fromarray(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
+    draw = ImageDraw.Draw(img)
+    fontStyle = ImageFont.truetype("/msjhbd.ttc", textSize, encoding="utf-8")
+    draw.text(position, text, textColor, font=fontStyle)
+    return cv2.cvtColor(np.asanyarray(img), cv2.COLOR_RGB2BGR)
+
 
 def DrawBoundingBox(bucket, video, detection_results, search_results):
     tmp_filename = './input.mp4'
@@ -339,20 +351,20 @@ def DrawBoundingBox(bucket, video, detection_results, search_results):
             break
 
         timestamp = cap.get(cv2.CAP_PROP_POS_MSEC)
-        if cur_idx < len(search_results) - 1 and timestamp >= search_results[cur_idx + 1]['Timestamp_search']:
-            cur_idx += 1
-            left = int(search_results[cur_idx]
-                       ['BoundingBox']['Left'] * img_width)
-            top = int(search_results[cur_idx]
-                      ['BoundingBox']['Top'] * img_height)
-            right = int((search_results[cur_idx]['BoundingBox']['Left'] +
-                        search_results[cur_idx]['BoundingBox']['Width']) * img_width)
-            bottom = int((search_results[cur_idx]['BoundingBox']['Top'] +
-                         search_results[cur_idx]['BoundingBox']['Height']) * img_height)
+        for search_result in search_results:
+            if abs(timestamp - search_result['Timestamp_search']) < (1000 / fps):
+                left = int(search_result['BoundingBox']['Left'] * img_width)
+                top = int(search_result['BoundingBox']['Top'] * img_height)
+                right = int((search_result['BoundingBox']['Left'] +
+                             search_result['BoundingBox']['Width']) * img_width)
+                bottom = int((search_result['BoundingBox']['Top'] +
+                              search_result['BoundingBox']['Height']) * img_height)
 
-        img = cv2.rectangle(frame, (left, top), (right, bottom), (255, 0, 0),2)
-        cv2.putText(img, f"{search_results[cur_idx]['Name']}({search_results[cur_idx]['Similarity']:.2f}%)", (left, top-10),
-                    cv2.FONT_HERSHEY_SIMPLEX, 0.9, (36, 255, 12), 2 , cv2.LINE_AA)
+                cv2.rectangle(frame, (left, top),
+                              (right, bottom), (0, 0, 255), 2)
+                frame = cv2ChineseText(
+                    frame, f"{search_result['Name']}({search_result['Similarity']:.2f}%)", (left, top-30), (36, 255, 12), 24)
+
         video.write(frame)
 
     cap.release()
@@ -380,12 +392,13 @@ def main():
     if analyzer.GetSQSMessageSuccess() == True:
         detection_results = analyzer.GetFaceDetectionResults()
         search_results = analyzer.GetFaceSearchCollectionResults()
-        final_result=analyzer.GetFinalResult(detection_results, search_results)
-        results_json = json.dumps(final_result, indent=4, ensure_ascii=False)
-        with open('detection_results.json', 'w', encoding='utf-8') as f:
-            f.write(results_json)
+        # final_result = analyzer.GetFinalResult(
+        #     detection_results, search_results)
+        # results_json = json.dumps(final_result, indent=4, ensure_ascii=False)
+        # with open('detection_results.json', 'w', encoding='utf-8') as f:
+        #     f.write(results_json)
         DrawBoundingBox(bucket, video, detection_results, search_results)
-        
+
     analyzer.DeleteTopicandQueue()
 
 

@@ -114,11 +114,12 @@ class VideoDetect:
             print('Format: ' + response['VideoMetadata']['Format'])
             print('Frame rate: ' + str(response['VideoMetadata']['FrameRate']))
             print()
-            
+
             for faceDetection in response['Faces']:
-                results.append({'Timestamp': faceDetection['Timestamp'], 'BoundingBox': faceDetection['Face']['BoundingBox']})
+                results.append(
+                    {'Timestamp': faceDetection['Timestamp'], 'BoundingBox': faceDetection['Face']['BoundingBox']})
                 faceDetails = faceDetection['Face']
-                
+
                 print(f"Confidence: {faceDetails['Confidence']:.2f}%")
                 print(f"Timestamp:  {str(faceDetection['Timestamp'])} (ms)")
                 print(
@@ -193,6 +194,7 @@ class VideoDetect:
         self.sqs.delete_queue(QueueUrl=self.sqsQueueUrl)
         self.sns.delete_topic(TopicArn=self.snsTopicArn)
 
+
 def DrawBoundingBox(bucket, objectName, boxes):
     tmp_filename = './input.mp4'
 
@@ -205,32 +207,24 @@ def DrawBoundingBox(bucket, objectName, boxes):
     img_height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 
     fourcc = cv2.VideoWriter_fourcc('m', 'p', '4', 'v')
-    video = cv2.VideoWriter('./output03.mp4', fourcc, fps, (img_width, img_height))
+    video = cv2.VideoWriter('./output03.mp4', fourcc,
+                            fps, (img_width, img_height))
 
     cur_idx = 0
     left = int(boxes[cur_idx]['BoundingBox']['Left'] * img_width)
     top = int(boxes[cur_idx]['BoundingBox']['Top'] * img_height)
-    right = int((boxes[cur_idx]['BoundingBox']['Left'] + boxes[cur_idx]['BoundingBox']['Width']) * img_width)
-    bottom = int((boxes[cur_idx]['BoundingBox']['Top'] + boxes[cur_idx]['BoundingBox']['Height']) * img_height)
+    right = int((boxes[cur_idx]['BoundingBox']['Left'] +
+                boxes[cur_idx]['BoundingBox']['Width']) * img_width)
+    bottom = int((boxes[cur_idx]['BoundingBox']['Top'] +
+                 boxes[cur_idx]['BoundingBox']['Height']) * img_height)
 
     while True:
         ret, frame = cap.read()
         if not ret:
             break
-        
-        timestamp = cap.get(cv2.CAP_PROP_POS_MSEC)
-        if cur_idx < len(boxes) - 1 and timestamp >= boxes[cur_idx + 1]['Timestamp']:
-            cur_idx += 1
-            left = int(boxes[cur_idx]['BoundingBox']['Left'] * img_width)
-            top = int(boxes[cur_idx]['BoundingBox']['Top'] * img_height)
-            right = int((boxes[cur_idx]['BoundingBox']['Left'] + boxes[cur_idx]['BoundingBox']['Width']) * img_width)
-            bottom = int((boxes[cur_idx]['BoundingBox']['Top'] + boxes[cur_idx]['BoundingBox']['Height']) * img_height)
 
-        cv2.rectangle(frame, (left, top), (right, bottom), (255, 0, 0),2)
-        video.write(frame)
-    
-    cap.release()
-    video.release()
+        timestamp = cap.get(cv2.CAP_PROP_POS_MSEC)
+
 
 def main():
 
@@ -251,7 +245,7 @@ def main():
     if analyzer.GetSQSMessageSuccess() == True:
         # analyzer.GetFaceDetectionResults()
         bounding_boxes = analyzer.GetFaceDetectionResults()
-        DrawBoundingBox(bucket,video,bounding_boxes)
+        DrawBoundingBox(bucket, video, bounding_boxes)
         # results_json = json.dumps(results, indent=4, ensure_ascii=False)
         # with open('detection_boundingBox_results.json', 'w', encoding='utf-8') as f:
         #     f.write(results_json)
