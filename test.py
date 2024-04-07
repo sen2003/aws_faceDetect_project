@@ -340,7 +340,7 @@ def DrawBoundingBox(bucket, video, search_results):
     output_video = cv2.VideoWriter(
         './output.mp4', fourcc, fps, (img_width, img_height))
 
-    active_faces = []  # 活动的人脸列表
+    active_faces = []
 
     while True:
         ret, frame = cap.read()
@@ -349,7 +349,6 @@ def DrawBoundingBox(bucket, video, search_results):
 
         timestamp = cap.get(cv2.CAP_PROP_POS_MSEC)
 
-        # 更新或保持人脸框信息
         for search_result in search_results:
             if abs(timestamp - search_result['Timestamp_search']) < (1000 / fps):
                 update = False
@@ -363,7 +362,6 @@ def DrawBoundingBox(bucket, video, search_results):
                         update = True
                         break
                 if not update:
-                    # 添加新的人脸框
                     active_faces.append(search_result)
 
         active_faces = [
