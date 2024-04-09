@@ -291,26 +291,26 @@ class VideoDetect:
                     matched_search_result = search_results_dict[timestamp_search]
                     break
 
-            # if matched_search_result:
-            #     print(
-            #         f"Detection Timestamp: {detection['Timestamp_detection']}")
-            #     print(
-            #         f"Search Timestamp: {matched_search_result['Timestamp_search']}")
-            #     print(
-            #         f"姓名: {matched_search_result['Name']} ({matched_search_result['Similarity']:.2f}%)")
-            #     print(
-                    # f"性別: {detection['Gender']['Value']} ({detection['Gender']['Confidence']:.2f}%)")
-            #     print(
-            #         f"年齡區間: {detection['AgeRange']['Low']}-{detection['AgeRange']['Heigh']}")
-            #     print(f"情緒: {' , '.join(detection['Emotions'])}")
+            if matched_search_result:
+                print(
+                    f"Detection Timestamp: {detection['Timestamp_detection']}")
+                print(
+                    f"Search Timestamp: {matched_search_result['Timestamp_search']}")
+                print(
+                    f"姓名: {matched_search_result['Name']} ({matched_search_result['Similarity']:.2f}%)")
+                print(
+                    f"性別: {detection['Gender']['Value']} ({detection['Gender']['Confidence']:.2f}%)")
+                print(
+                    f"年齡區間: {detection['AgeRange']['Low']}-{detection['AgeRange']['Heigh']}")
+                print(f"情緒: {' , '.join(detection['Emotions'])}")
 
-            #     print(
-            #         "------------------------------------------------------------------------------------------------------------------")
-            # else:
-            #     print(
-            #         f"Detection Timestamp: {detection['Timestamp_detection']} - No matching face found in search results.")
-            #     print(
-            #         "------------------------------------------------------------------------------------------------------------------")
+                print(
+                    "------------------------------------------------------------------------------------------------------------------")
+            else:
+                print(
+                    f"Detection Timestamp: {detection['Timestamp_detection']} - No matching face found in search results.")
+                print(
+                    "------------------------------------------------------------------------------------------------------------------")
         # return search_results_dict
 
 
@@ -392,7 +392,7 @@ def main():
     if analyzer.GetSQSMessageSuccess() == True:
         detection_results = analyzer.GetFaceDetectionResults()
         search_results = analyzer.GetFaceSearchCollectionResults()
-        # final_result = analyzer.GetFinalResult(
+        analyzer.GetFinalResult(detection_results, search_results)
         #     detection_results, search_results)
         # results_json = json.dumps(final_result, indent=4, ensure_ascii=False)
         # with open('detection_results.json', 'w', encoding='utf-8') as f:

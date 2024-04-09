@@ -150,15 +150,15 @@ class VideoDetect:
                 # print('Face: ' + str(faceDetection['Face']))
                 faceDetails = faceDetection['Face']
                 emotions = [
-                    f"{word_convert(emotion['Type'])}({emotion['Confidence']:.2f}%)" for emotion in faceDetails['Emotions']]
+                    f"{emotion['Type']} {emotion['Confidence']:.2f}" for emotion in faceDetails['Emotions']]
                 detection_data = {
                     'Timestamp_detection': faceDetection['Timestamp'],
-                    'Gender': {'Value': word_convert(faceDetails['Gender']['Value']),
+                    'BoundingBox': faceDetection['Face']['BoundingBox'],
+                    'Gender': {'Value': faceDetails['Gender']['Value'],
                                'Confidence': faceDetails['Gender']['Confidence']},
                     'AgeRange': {
                         'Low': str(faceDetails['AgeRange']['Low']), 'Heigh': str(faceDetails['AgeRange']['High'])},
-                    'Emotions': emotions,
-                    'BoundingBox': faceDetection['Face']['BoundingBox']
+                    'Emotions': emotions
                 }
                 detection_results.append(detection_data)
 
@@ -279,41 +279,21 @@ class VideoDetect:
         self.sqs.delete_queue(QueueUrl=self.sqsQueueUrl)
         self.sns.delete_topic(TopicArn=self.snsTopicArn)
 
-    # def GetFinalResult(self, detection_results, search_results):
-    #     search_results_dict = {
-    #         int(result['Timestamp_search']): result for result in search_results}
-
-    #     for detection in detection_results:
-    #         timestamp_detection = int(detection['Timestamp_detection'])
-
-    #         match_range = 100
-    #         matched_search_result = None
-
-    #         for timestamp_search in range(timestamp_detection - match_range, timestamp_detection + match_range + 1):
-    #             if timestamp_search in search_results_dict:
-    #                 matched_search_result = search_results_dict[timestamp_search]
-    #                 break
-
-        # if matched_search_result:
-        #     print(
-        #         f"Detection Timestamp: {detection['Timestamp_detection']}")
-        #     print(
-        #         f"Search Timestamp: {matched_search_result['Timestamp_search']}")
-        #     print(
-        #         f"姓名: {matched_search_result['Name']} ({matched_search_result['Similarity']:.2f}%)")
-        #     print(
-        #         f"性別: {detection['Gender']['Value']} ({detection['Gender']['Confidence']:.2f}%)")
-        #     print(
-        #         f"年齡區間: {detection['AgeRange']['Low']}-{detection['AgeRange']['Heigh']}")
-        #     print(f"情緒: {' , '.join(detection['Emotions'])}")
-
-        #     print(
-        #         "------------------------------------------------------------------------------------------------------------------")
-        # else:
-        #     print(
-        #         f"Detection Timestamp: {detection['Timestamp_detection']} - No matching face found in search results.")
-        #     print(
-        #         "------------------------------------------------------------------------------------------------------------------")
+    def GetFinalResult(self, detection_results, search_results):
+        final_results = []
+        for detection, search in zip(detection_results, search_results):
+            final_datas = {
+                'Detection Timestamp': detection['Timestamp_detection'],
+                'Search Timestamp': search['Timestamp_search'],
+                'Name': search['Name'],
+                'Similarity': search['Similarity'],
+                'Gender': {'Value': detection['Gender']['Value'], 'Confidence': detection['Gender']['Confidence']},
+                'AgeRange': {'Low': detection['AgeRange']['Low'], 'Heigh': detection['AgeRange']['Heigh']},
+                # 'Emotions': {'Type': detection['Emotions']['Type'], 'Confidence': detection['Emotions']['Confidence']}
+                'Emotions': detection['Emotions']
+            }
+            final_results.append(final_datas)
+        return final_results
 
 
 def cv2ChineseText(img, text, position, textColor, textSize):
@@ -366,8 +346,6 @@ def DrawBoundingBox(bucket, video, search_results):
 
         active_faces = [
             face for face in active_faces if face['Name'] != 'Unknow']
-        # active_faces = [
-        #     face for face in active_faces if face['Timestamp'] <= timestamp]
 
         for face in active_faces:
             left = int(face['BoundingBox']['Left'] * img_width)
@@ -407,10 +385,11 @@ def main():
     if analyzer.GetSQSMessageSuccess() == True:
         detection_results = analyzer.GetFaceDetectionResults()
         search_results = analyzer.GetFaceSearchCollectionResults()
-        # analyzer.GetFinalResult(detection_results, search_results)
-        # results_json = json.dumps(final_result, indent=4, ensure_ascii=False)
-        # with open('detection_results.json', 'w', encoding='utf-8') as f:
-        #     f.write(results_json)
+        final_results = analyzer.GetFinalResult(
+            detection_results, search_results)
+        results_json = json.dumps(final_results, indent=4, ensure_ascii=False)
+        with open('final_results.json', 'w', encoding='utf-8') as f:
+            f.write(results_json)
         DrawBoundingBox(bucket, video, search_results)
 
     analyzer.DeleteTopicandQueue()

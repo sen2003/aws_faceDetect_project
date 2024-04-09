@@ -1,0 +1,3434 @@
+[
+    {
+        "Detection Timestamp": 0,
+        "Search Timestamp": 0,
+        "Name": "沈宏勳",
+        "Similarity": 99.92376708984375,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "21"
+        },
+        "Emotions": [
+            "CALM 68.68",
+            "SAD 19.17",
+            "CONFUSED 0.03",
+            "SURPRISED 0.00",
+            "ANGRY 0.00",
+            "HAPPY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 0,
+        "Search Timestamp": 0,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.91344451904297
+        },
+        "AgeRange": {
+            "Low": "35",
+            "Heigh": "43"
+        },
+        "Emotions": [
+            "CALM 100.00",
+            "CONFUSED 0.00",
+            "SAD 0.00",
+            "HAPPY 0.00",
+            "ANGRY 0.00",
+            "SURPRISED 0.00",
+            "FEAR 0.00",
+            "DISGUSTED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 0,
+        "Search Timestamp": 0,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "18",
+            "Heigh": "22"
+        },
+        "Emotions": [
+            "SAD 93.40",
+            "CALM 26.44",
+            "ANGRY 0.00",
+            "CONFUSED 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "HAPPY 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 499,
+        "Search Timestamp": 499,
+        "Name": "沈宏勳",
+        "Similarity": 99.96148681640625,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "19"
+        },
+        "Emotions": [
+            "CALM 67.86",
+            "SAD 19.92",
+            "CONFUSED 0.00",
+            "SURPRISED 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "HAPPY 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 499,
+        "Search Timestamp": 499,
+        "Name": "鄒博森",
+        "Similarity": 84.10935974121094,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.99996185302734
+        },
+        "AgeRange": {
+            "Low": "21",
+            "Heigh": "29"
+        },
+        "Emotions": [
+            "SAD 99.19",
+            "CALM 3.26",
+            "CONFUSED 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "HAPPY 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 499,
+        "Search Timestamp": 499,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.98511505126953
+        },
+        "AgeRange": {
+            "Low": "31",
+            "Heigh": "39"
+        },
+        "Emotions": [
+            "CALM 100.00",
+            "SAD 0.00",
+            "CONFUSED 0.00",
+            "ANGRY 0.00",
+            "HAPPY 0.00",
+            "FEAR 0.00",
+            "DISGUSTED 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 999,
+        "Search Timestamp": 999,
+        "Name": "沈宏勳",
+        "Similarity": 99.98445129394531,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "12",
+            "Heigh": "18"
+        },
+        "Emotions": [
+            "CALM 99.22",
+            "SAD 0.26",
+            "CONFUSED 0.10",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "SURPRISED 0.00",
+            "HAPPY 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 999,
+        "Search Timestamp": 999,
+        "Name": "鄒博森",
+        "Similarity": 98.97274780273438,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "14",
+            "Heigh": "22"
+        },
+        "Emotions": [
+            "SAD 92.18",
+            "CALM 31.32",
+            "CONFUSED 0.00",
+            "ANGRY 0.00",
+            "HAPPY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 999,
+        "Search Timestamp": 999,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.97232818603516
+        },
+        "AgeRange": {
+            "Low": "21",
+            "Heigh": "29"
+        },
+        "Emotions": [
+            "CALM 100.00",
+            "CONFUSED 0.00",
+            "SAD 0.00",
+            "HAPPY 0.00",
+            "ANGRY 0.00",
+            "SURPRISED 0.00",
+            "FEAR 0.00",
+            "DISGUSTED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 1499,
+        "Search Timestamp": 1499,
+        "Name": "沈宏勳",
+        "Similarity": 99.99813079833984,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "12",
+            "Heigh": "18"
+        },
+        "Emotions": [
+            "CALM 100.00",
+            "CONFUSED 0.00",
+            "HAPPY 0.00",
+            "SAD 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 1499,
+        "Search Timestamp": 1499,
+        "Name": "鄒博森",
+        "Similarity": 98.33427429199219,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.99993896484375
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "21"
+        },
+        "Emotions": [
+            "SAD 94.48",
+            "CALM 22.03",
+            "CONFUSED 0.00",
+            "HAPPY 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 1499,
+        "Search Timestamp": 1499,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.61878967285156
+        },
+        "AgeRange": {
+            "Low": "18",
+            "Heigh": "22"
+        },
+        "Emotions": [
+            "CALM 100.00",
+            "SAD 0.00",
+            "CONFUSED 0.00",
+            "ANGRY 0.00",
+            "HAPPY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 1999,
+        "Search Timestamp": 1999,
+        "Name": "沈宏勳",
+        "Similarity": 99.99763488769531,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.9997787475586
+        },
+        "AgeRange": {
+            "Low": "19",
+            "Heigh": "23"
+        },
+        "Emotions": [
+            "CALM 100.00",
+            "HAPPY 0.01",
+            "CONFUSED 0.00",
+            "SAD 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 1999,
+        "Search Timestamp": 1999,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "14",
+            "Heigh": "22"
+        },
+        "Emotions": [
+            "SAD 97.11",
+            "CALM 11.60",
+            "CONFUSED 0.00",
+            "HAPPY 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 1999,
+        "Search Timestamp": 1999,
+        "Name": "鄒博森",
+        "Similarity": 98.8172836303711,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 89.64949035644531
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "21"
+        },
+        "Emotions": [
+            "CALM 100.00",
+            "SAD 0.00",
+            "HAPPY 0.00",
+            "CONFUSED 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 1999,
+        "Search Timestamp": 1999,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.998291015625
+        },
+        "AgeRange": {
+            "Low": "11",
+            "Heigh": "17"
+        },
+        "Emotions": [
+            "SAD 93.98",
+            "CALM 24.06",
+            "ANGRY 0.00",
+            "CONFUSED 0.00",
+            "HAPPY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 2498,
+        "Search Timestamp": 2498,
+        "Name": "沈宏勳",
+        "Similarity": 99.90589141845703,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.99223327636719
+        },
+        "AgeRange": {
+            "Low": "12",
+            "Heigh": "18"
+        },
+        "Emotions": [
+            "CALM 99.61",
+            "SAD 0.20",
+            "CONFUSED 0.00",
+            "FEAR 0.00",
+            "SURPRISED 0.00",
+            "HAPPY 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 2498,
+        "Search Timestamp": 2498,
+        "Name": "柯信汶",
+        "Similarity": 93.6135025024414,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "21"
+        },
+        "Emotions": [
+            "CALM 91.21",
+            "SAD 4.36",
+            "HAPPY 0.00",
+            "CONFUSED 0.00",
+            "SURPRISED 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 2498,
+        "Search Timestamp": 2498,
+        "Name": "鄒博森",
+        "Similarity": 93.10437774658203,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.96468353271484
+        },
+        "AgeRange": {
+            "Low": "14",
+            "Heigh": "22"
+        },
+        "Emotions": [
+            "CALM 100.00",
+            "SAD 0.01",
+            "HAPPY 0.00",
+            "ANGRY 0.00",
+            "CONFUSED 0.00",
+            "SURPRISED 0.00",
+            "FEAR 0.00",
+            "DISGUSTED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 2498,
+        "Search Timestamp": 2498,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "16",
+            "Heigh": "22"
+        },
+        "Emotions": [
+            "CALM 85.14",
+            "SAD 8.88",
+            "CONFUSED 0.00",
+            "HAPPY 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 2998,
+        "Search Timestamp": 2998,
+        "Name": "沈宏勳",
+        "Similarity": 99.9057388305664,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "19"
+        },
+        "Emotions": [
+            "CALM 78.07",
+            "SAD 13.90",
+            "CONFUSED 0.01",
+            "SURPRISED 0.00",
+            "HAPPY 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 2998,
+        "Search Timestamp": 2998,
+        "Name": "柯信汶",
+        "Similarity": 93.61204528808594,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.98384857177734
+        },
+        "AgeRange": {
+            "Low": "14",
+            "Heigh": "22"
+        },
+        "Emotions": [
+            "CALM 100.00",
+            "CONFUSED 0.00",
+            "SAD 0.00",
+            "HAPPY 0.00",
+            "ANGRY 0.00",
+            "SURPRISED 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 2998,
+        "Search Timestamp": 2998,
+        "Name": "鄒博森",
+        "Similarity": 98.36677551269531,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "12",
+            "Heigh": "18"
+        },
+        "Emotions": [
+            "SAD 91.19",
+            "CALM 35.21",
+            "ANGRY 0.00",
+            "CONFUSED 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "HAPPY 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 2998,
+        "Search Timestamp": 2998,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.94892120361328
+        },
+        "AgeRange": {
+            "Low": "23",
+            "Heigh": "31"
+        },
+        "Emotions": [
+            "CALM 100.00",
+            "SAD 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "HAPPY 0.00",
+            "SURPRISED 0.00",
+            "CONFUSED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 3498,
+        "Search Timestamp": 3498,
+        "Name": "沈宏勳",
+        "Similarity": 99.86801147460938,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "21"
+        },
+        "Emotions": [
+            "CALM 55.39",
+            "SAD 50.30",
+            "CONFUSED 0.00",
+            "HAPPY 0.00",
+            "SURPRISED 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 3498,
+        "Search Timestamp": 3498,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.99998474121094
+        },
+        "AgeRange": {
+            "Low": "22",
+            "Heigh": "30"
+        },
+        "Emotions": [
+            "CALM 86.97",
+            "SAD 7.43",
+            "ANGRY 0.00",
+            "CONFUSED 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "HAPPY 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 3498,
+        "Search Timestamp": 3498,
+        "Name": "鄒博森",
+        "Similarity": 99.31478118896484,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.99717712402344
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "21"
+        },
+        "Emotions": [
+            "CALM 100.00",
+            "SAD 0.00",
+            "CONFUSED 0.00",
+            "ANGRY 0.00",
+            "HAPPY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 3498,
+        "Search Timestamp": 3498,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.9688949584961
+        },
+        "AgeRange": {
+            "Low": "21",
+            "Heigh": "29"
+        },
+        "Emotions": [
+            "CALM 88.13",
+            "SAD 6.45",
+            "ANGRY 0.00",
+            "CONFUSED 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "HAPPY 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 3998,
+        "Search Timestamp": 3998,
+        "Name": "沈宏勳",
+        "Similarity": 99.75841522216797,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "12",
+            "Heigh": "18"
+        },
+        "Emotions": [
+            "CALM 87.52",
+            "SAD 7.01",
+            "CONFUSED 0.00",
+            "SURPRISED 0.00",
+            "HAPPY 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 3998,
+        "Search Timestamp": 3998,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.99976348876953
+        },
+        "AgeRange": {
+            "Low": "20",
+            "Heigh": "28"
+        },
+        "Emotions": [
+            "CALM 94.34",
+            "SAD 2.89",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "HAPPY 0.00",
+            "SURPRISED 0.00",
+            "CONFUSED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 3998,
+        "Search Timestamp": 3998,
+        "Name": "鄒博森",
+        "Similarity": 95.21652221679688,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.80200958251953
+        },
+        "AgeRange": {
+            "Low": "18",
+            "Heigh": "22"
+        },
+        "Emotions": [
+            "CALM 100.00",
+            "SAD 0.00",
+            "CONFUSED 0.00",
+            "ANGRY 0.00",
+            "HAPPY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 3998,
+        "Search Timestamp": 3998,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.98347473144531
+        },
+        "AgeRange": {
+            "Low": "9",
+            "Heigh": "17"
+        },
+        "Emotions": [
+            "CALM 89.41",
+            "SAD 5.41",
+            "CONFUSED 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "HAPPY 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 4497,
+        "Search Timestamp": 4497,
+        "Name": "沈宏勳",
+        "Similarity": 99.62162017822266,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "21"
+        },
+        "Emotions": [
+            "CALM 85.51",
+            "SAD 8.57",
+            "CONFUSED 0.00",
+            "SURPRISED 0.00",
+            "HAPPY 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 4497,
+        "Search Timestamp": 4497,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.97490692138672
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "21"
+        },
+        "Emotions": [
+            "CALM 100.00",
+            "CONFUSED 0.00",
+            "SAD 0.00",
+            "ANGRY 0.00",
+            "HAPPY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 4497,
+        "Search Timestamp": 4497,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "39",
+            "Heigh": "47"
+        },
+        "Emotions": [
+            "SAD 91.96",
+            "CALM 32.15",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "HAPPY 0.00",
+            "SURPRISED 0.00",
+            "CONFUSED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 4497,
+        "Search Timestamp": 4497,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 98.35987091064453
+        },
+        "AgeRange": {
+            "Low": "24",
+            "Heigh": "32"
+        },
+        "Emotions": [
+            "CALM 100.00",
+            "SAD 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "HAPPY 0.00",
+            "SURPRISED 0.00",
+            "CONFUSED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 4997,
+        "Search Timestamp": 4997,
+        "Name": "沈宏勳",
+        "Similarity": 99.94345092773438,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "14",
+            "Heigh": "22"
+        },
+        "Emotions": [
+            "CALM 70.65",
+            "SAD 17.64",
+            "CONFUSED 0.00",
+            "SURPRISED 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "HAPPY 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 4997,
+        "Search Timestamp": 4997,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.98941040039062
+        },
+        "AgeRange": {
+            "Low": "18",
+            "Heigh": "22"
+        },
+        "Emotions": [
+            "CALM 100.00",
+            "CONFUSED 0.00",
+            "SAD 0.00",
+            "ANGRY 0.00",
+            "HAPPY 0.00",
+            "SURPRISED 0.00",
+            "FEAR 0.00",
+            "DISGUSTED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 4997,
+        "Search Timestamp": 4997,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "27",
+            "Heigh": "35"
+        },
+        "Emotions": [
+            "CALM 83.31",
+            "SAD 10.30",
+            "CONFUSED 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "HAPPY 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 5497,
+        "Search Timestamp": 5497,
+        "Name": "沈宏勳",
+        "Similarity": 99.93025970458984,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "21"
+        },
+        "Emotions": [
+            "CALM 55.69",
+            "SAD 48.25",
+            "CONFUSED 0.46",
+            "HAPPY 0.00",
+            "SURPRISED 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 5497,
+        "Search Timestamp": 5497,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.98758697509766
+        },
+        "AgeRange": {
+            "Low": "16",
+            "Heigh": "22"
+        },
+        "Emotions": [
+            "CALM 100.00",
+            "SAD 0.00",
+            "ANGRY 0.00",
+            "CONFUSED 0.00",
+            "HAPPY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 5497,
+        "Search Timestamp": 5497,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 98.30831909179688
+        },
+        "AgeRange": {
+            "Low": "28",
+            "Heigh": "36"
+        },
+        "Emotions": [
+            "CALM 100.00",
+            "SAD 0.02",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "HAPPY 0.00",
+            "SURPRISED 0.00",
+            "CONFUSED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 5997,
+        "Search Timestamp": 5997,
+        "Name": "沈宏勳",
+        "Similarity": 99.98226928710938,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "19"
+        },
+        "Emotions": [
+            "CALM 64.28",
+            "SAD 22.86",
+            "CONFUSED 0.29",
+            "HAPPY 0.00",
+            "SURPRISED 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 5997,
+        "Search Timestamp": 5997,
+        "Name": "鄒博森",
+        "Similarity": 80.3206558227539,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.99559020996094
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "21"
+        },
+        "Emotions": [
+            "CALM 100.00",
+            "SAD 0.02",
+            "ANGRY 0.00",
+            "HAPPY 0.00",
+            "CONFUSED 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 5997,
+        "Search Timestamp": 5997,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "28",
+            "Heigh": "36"
+        },
+        "Emotions": [
+            "CALM 99.80",
+            "SAD 0.08",
+            "ANGRY 0.00",
+            "SURPRISED 0.00",
+            "CONFUSED 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "HAPPY 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 6496,
+        "Search Timestamp": 6496,
+        "Name": "沈宏勳",
+        "Similarity": 99.9881591796875,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "21"
+        },
+        "Emotions": [
+            "CALM 91.89",
+            "SAD 3.78",
+            "CONFUSED 0.25",
+            "SURPRISED 0.00",
+            "HAPPY 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 6496,
+        "Search Timestamp": 6496,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.9998779296875
+        },
+        "AgeRange": {
+            "Low": "19",
+            "Heigh": "23"
+        },
+        "Emotions": [
+            "CALM 99.61",
+            "SAD 0.18",
+            "ANGRY 0.00",
+            "CONFUSED 0.00",
+            "HAPPY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 6496,
+        "Search Timestamp": 6496,
+        "Name": "鄒博森",
+        "Similarity": 95.96961975097656,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.99600982666016
+        },
+        "AgeRange": {
+            "Low": "16",
+            "Heigh": "22"
+        },
+        "Emotions": [
+            "CALM 100.00",
+            "SAD 0.02",
+            "ANGRY 0.00",
+            "HAPPY 0.00",
+            "CONFUSED 0.00",
+            "FEAR 0.00",
+            "DISGUSTED 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 6496,
+        "Search Timestamp": 6496,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 92.71134948730469
+        },
+        "AgeRange": {
+            "Low": "11",
+            "Heigh": "17"
+        },
+        "Emotions": [
+            "CALM 98.63",
+            "SAD 0.70",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "HAPPY 0.00",
+            "SURPRISED 0.00",
+            "CONFUSED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 6996,
+        "Search Timestamp": 6996,
+        "Name": "沈宏勳",
+        "Similarity": 99.9794692993164,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "19"
+        },
+        "Emotions": [
+            "CALM 96.88",
+            "SAD 1.51",
+            "CONFUSED 0.03",
+            "HAPPY 0.00",
+            "ANGRY 0.00",
+            "SURPRISED 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 6996,
+        "Search Timestamp": 6996,
+        "Name": "鄒博森",
+        "Similarity": 93.12882232666016,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.98672485351562
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "21"
+        },
+        "Emotions": [
+            "CALM 99.61",
+            "SAD 0.15",
+            "CONFUSED 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "HAPPY 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 6996,
+        "Search Timestamp": 6996,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.97480773925781
+        },
+        "AgeRange": {
+            "Low": "14",
+            "Heigh": "22"
+        },
+        "Emotions": [
+            "CALM 100.00",
+            "SAD 0.01",
+            "ANGRY 0.01",
+            "HAPPY 0.00",
+            "CONFUSED 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 7496,
+        "Search Timestamp": 7496,
+        "Name": "沈宏勳",
+        "Similarity": 99.97000122070312,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "21"
+        },
+        "Emotions": [
+            "CALM 88.93",
+            "SAD 5.88",
+            "CONFUSED 0.05",
+            "SURPRISED 0.00",
+            "HAPPY 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 7496,
+        "Search Timestamp": 7496,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.89334106445312
+        },
+        "AgeRange": {
+            "Low": "18",
+            "Heigh": "22"
+        },
+        "Emotions": [
+            "CALM 99.80",
+            "SAD 0.04",
+            "ANGRY 0.02",
+            "CONFUSED 0.01",
+            "HAPPY 0.00",
+            "FEAR 0.00",
+            "SURPRISED 0.00",
+            "DISGUSTED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 7496,
+        "Search Timestamp": 7496,
+        "Name": "鄒博森",
+        "Similarity": 98.98725128173828,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.99998474121094
+        },
+        "AgeRange": {
+            "Low": "12",
+            "Heigh": "18"
+        },
+        "Emotions": [
+            "CALM 100.00",
+            "SAD 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "HAPPY 0.00",
+            "SURPRISED 0.00",
+            "CONFUSED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 7496,
+        "Search Timestamp": 7496,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 57.11695098876953
+        },
+        "AgeRange": {
+            "Low": "26",
+            "Heigh": "34"
+        },
+        "Emotions": [
+            "CALM 100.00",
+            "SAD 0.01",
+            "CONFUSED 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "HAPPY 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 7996,
+        "Search Timestamp": 7996,
+        "Name": "沈宏勳",
+        "Similarity": 99.9869384765625,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "21"
+        },
+        "Emotions": [
+            "CALM 63.09",
+            "SAD 24.18",
+            "CONFUSED 0.03",
+            "ANGRY 0.00",
+            "SURPRISED 0.00",
+            "HAPPY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 7996,
+        "Search Timestamp": 7996,
+        "Name": "鄒博森",
+        "Similarity": 99.32408905029297,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.83614349365234
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "19"
+        },
+        "Emotions": [
+            "CALM 100.00",
+            "SAD 0.01",
+            "CONFUSED 0.00",
+            "ANGRY 0.00",
+            "SURPRISED 0.00",
+            "HAPPY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 7996,
+        "Search Timestamp": 7996,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.99996185302734
+        },
+        "AgeRange": {
+            "Low": "16",
+            "Heigh": "22"
+        },
+        "Emotions": [
+            "CALM 93.75",
+            "SAD 3.15",
+            "CONFUSED 0.00",
+            "SURPRISED 0.00",
+            "ANGRY 0.00",
+            "HAPPY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 8495,
+        "Search Timestamp": 8495,
+        "Name": "沈宏勳",
+        "Similarity": 99.97360229492188,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "21"
+        },
+        "Emotions": [
+            "CALM 97.46",
+            "SAD 1.25",
+            "CONFUSED 0.01",
+            "ANGRY 0.00",
+            "HAPPY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 8495,
+        "Search Timestamp": 8495,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.09551239013672
+        },
+        "AgeRange": {
+            "Low": "12",
+            "Heigh": "18"
+        },
+        "Emotions": [
+            "CALM 100.00",
+            "SAD 0.01",
+            "ANGRY 0.00",
+            "CONFUSED 0.00",
+            "HAPPY 0.00",
+            "SURPRISED 0.00",
+            "FEAR 0.00",
+            "DISGUSTED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 8495,
+        "Search Timestamp": 8495,
+        "Name": "鄒博森",
+        "Similarity": 99.3740005493164,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.99974060058594
+        },
+        "AgeRange": {
+            "Low": "14",
+            "Heigh": "22"
+        },
+        "Emotions": [
+            "CALM 97.85",
+            "SAD 1.06",
+            "CONFUSED 0.05",
+            "SURPRISED 0.01",
+            "HAPPY 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 8495,
+        "Search Timestamp": 8495,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.70121765136719
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "19"
+        },
+        "Emotions": [
+            "CALM 99.80",
+            "SAD 0.07",
+            "HAPPY 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "SURPRISED 0.00",
+            "CONFUSED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 8995,
+        "Search Timestamp": 8995,
+        "Name": "沈宏勳",
+        "Similarity": 99.8980941772461,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "21"
+        },
+        "Emotions": [
+            "CALM 99.61",
+            "SAD 0.20",
+            "CONFUSED 0.02",
+            "SURPRISED 0.00",
+            "HAPPY 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 8995,
+        "Search Timestamp": 8995,
+        "Name": "鄒博森",
+        "Similarity": 97.04545593261719,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.99950408935547
+        },
+        "AgeRange": {
+            "Low": "33",
+            "Heigh": "41"
+        },
+        "Emotions": [
+            "SAD 99.73",
+            "CALM 1.03",
+            "CONFUSED 0.02",
+            "SURPRISED 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "HAPPY 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 8995,
+        "Search Timestamp": 8995,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.56224822998047
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "21"
+        },
+        "Emotions": [
+            "CALM 100.00",
+            "SAD 0.01",
+            "ANGRY 0.01",
+            "HAPPY 0.00",
+            "CONFUSED 0.00",
+            "SURPRISED 0.00",
+            "FEAR 0.00",
+            "DISGUSTED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 9495,
+        "Search Timestamp": 9495,
+        "Name": "沈宏勳",
+        "Similarity": 99.90921020507812,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "14",
+            "Heigh": "22"
+        },
+        "Emotions": [
+            "CALM 62.93",
+            "SAD 24.32",
+            "CONFUSED 0.04",
+            "SURPRISED 0.02",
+            "ANGRY 0.00",
+            "HAPPY 0.00",
+            "FEAR 0.00",
+            "DISGUSTED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 9495,
+        "Search Timestamp": 9495,
+        "Name": "鄒博森",
+        "Similarity": 98.19476318359375,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.99998474121094
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "21"
+        },
+        "Emotions": [
+            "CALM 88.93",
+            "SAD 5.83",
+            "SURPRISED 0.11",
+            "HAPPY 0.01",
+            "CONFUSED 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 9495,
+        "Search Timestamp": 9495,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.9007797241211
+        },
+        "AgeRange": {
+            "Low": "12",
+            "Heigh": "18"
+        },
+        "Emotions": [
+            "CALM 100.00",
+            "SAD 0.02",
+            "ANGRY 0.00",
+            "CONFUSED 0.00",
+            "HAPPY 0.00",
+            "SURPRISED 0.00",
+            "FEAR 0.00",
+            "DISGUSTED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 9995,
+        "Search Timestamp": 9995,
+        "Name": "沈宏勳",
+        "Similarity": 99.69673156738281,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.99952697753906
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "21"
+        },
+        "Emotions": [
+            "CALM 100.00",
+            "HAPPY 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "SAD 0.00",
+            "SURPRISED 0.00",
+            "CONFUSED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 9995,
+        "Search Timestamp": 9995,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "21"
+        },
+        "Emotions": [
+            "CALM 90.82",
+            "SAD 4.43",
+            "SURPRISED 0.30",
+            "CONFUSED 0.01",
+            "HAPPY 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 9995,
+        "Search Timestamp": 9995,
+        "Name": "鄒博森",
+        "Similarity": 97.05215454101562,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.90494537353516
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "19"
+        },
+        "Emotions": [
+            "CALM 100.00",
+            "ANGRY 0.00",
+            "SAD 0.00",
+            "CONFUSED 0.00",
+            "SURPRISED 0.00",
+            "HAPPY 0.00",
+            "FEAR 0.00",
+            "DISGUSTED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 9995,
+        "Search Timestamp": 9995,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.93836975097656
+        },
+        "AgeRange": {
+            "Low": "19",
+            "Heigh": "23"
+        },
+        "Emotions": [
+            "CALM 94.34",
+            "SAD 2.87",
+            "ANGRY 0.00",
+            "HAPPY 0.00",
+            "CONFUSED 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 10495,
+        "Search Timestamp": 10495,
+        "Name": "沈宏勳",
+        "Similarity": 99.70652770996094,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.9906997680664
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "21"
+        },
+        "Emotions": [
+            "CALM 99.02",
+            "HAPPY 0.16",
+            "SAD 0.00",
+            "CONFUSED 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 10495,
+        "Search Timestamp": 10495,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "21"
+        },
+        "Emotions": [
+            "CALM 99.41",
+            "SAD 0.17",
+            "HAPPY 0.03",
+            "CONFUSED 0.00",
+            "SURPRISED 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 10495,
+        "Search Timestamp": 10495,
+        "Name": "鄒博森",
+        "Similarity": 99.48281860351562,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.97421264648438
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "19"
+        },
+        "Emotions": [
+            "CALM 100.00",
+            "SAD 0.01",
+            "CONFUSED 0.01",
+            "ANGRY 0.00",
+            "SURPRISED 0.00",
+            "DISGUSTED 0.00",
+            "HAPPY 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 10495,
+        "Search Timestamp": 10495,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.97106170654297
+        },
+        "AgeRange": {
+            "Low": "19",
+            "Heigh": "25"
+        },
+        "Emotions": [
+            "CALM 83.55",
+            "SAD 10.16",
+            "ANGRY 0.00",
+            "CONFUSED 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "HAPPY 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 10994,
+        "Search Timestamp": 10994,
+        "Name": "沈宏勳",
+        "Similarity": 99.54939270019531,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.99737548828125
+        },
+        "AgeRange": {
+            "Low": "20",
+            "Heigh": "28"
+        },
+        "Emotions": [
+            "CALM 54.17",
+            "SAD 52.30",
+            "CONFUSED 0.04",
+            "HAPPY 0.04",
+            "SURPRISED 0.00",
+            "DISGUSTED 0.00",
+            "ANGRY 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 10994,
+        "Search Timestamp": 10994,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.9998779296875
+        },
+        "AgeRange": {
+            "Low": "14",
+            "Heigh": "22"
+        },
+        "Emotions": [
+            "CALM 95.80",
+            "HAPPY 0.71",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "SAD 0.00",
+            "SURPRISED 0.00",
+            "CONFUSED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 10994,
+        "Search Timestamp": 10994,
+        "Name": "鄒博森",
+        "Similarity": 99.34252166748047,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.9537582397461
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "19"
+        },
+        "Emotions": [
+            "CALM 100.00",
+            "CONFUSED 0.00",
+            "SAD 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "HAPPY 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 10994,
+        "Search Timestamp": 10994,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.99986267089844
+        },
+        "AgeRange": {
+            "Low": "11",
+            "Heigh": "17"
+        },
+        "Emotions": [
+            "CALM 64.12",
+            "SAD 23.29",
+            "CONFUSED 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "HAPPY 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 11494,
+        "Search Timestamp": 11494,
+        "Name": "沈宏勳",
+        "Similarity": 98.68670654296875,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "14",
+            "Heigh": "22"
+        },
+        "Emotions": [
+            "CALM 99.80",
+            "HAPPY 0.03",
+            "SAD 0.00",
+            "SURPRISED 0.00",
+            "CONFUSED 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 11494,
+        "Search Timestamp": 11494,
+        "Name": "鄒博森",
+        "Similarity": 99.00906372070312,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "19"
+        },
+        "Emotions": [
+            "CALM 95.61",
+            "SAD 2.16",
+            "SURPRISED 0.01",
+            "CONFUSED 0.00",
+            "HAPPY 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 11494,
+        "Search Timestamp": 11494,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.96878051757812
+        },
+        "AgeRange": {
+            "Low": "12",
+            "Heigh": "18"
+        },
+        "Emotions": [
+            "CALM 100.00",
+            "SAD 0.00",
+            "ANGRY 0.00",
+            "HAPPY 0.00",
+            "CONFUSED 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 11994,
+        "Search Timestamp": 11994,
+        "Name": "沈宏勳",
+        "Similarity": 99.8597183227539,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.91377258300781
+        },
+        "AgeRange": {
+            "Low": "12",
+            "Heigh": "18"
+        },
+        "Emotions": [
+            "CALM 97.46",
+            "SAD 0.98",
+            "CONFUSED 0.21",
+            "ANGRY 0.02",
+            "HAPPY 0.00",
+            "DISGUSTED 0.00",
+            "SURPRISED 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 11994,
+        "Search Timestamp": 11994,
+        "Name": "柯信汶",
+        "Similarity": 93.91304779052734,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "19"
+        },
+        "Emotions": [
+            "SAD 73.91",
+            "CALM 46.23",
+            "CONFUSED 0.29",
+            "HAPPY 0.00",
+            "SURPRISED 0.00",
+            "DISGUSTED 0.00",
+            "ANGRY 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 11994,
+        "Search Timestamp": 11994,
+        "Name": "鄒博森",
+        "Similarity": 99.65435791015625,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "19",
+            "Heigh": "25"
+        },
+        "Emotions": [
+            "CALM 68.46",
+            "SAD 9.56",
+            "HAPPY 3.19",
+            "SURPRISED 0.38",
+            "CONFUSED 0.11",
+            "DISGUSTED 0.00",
+            "ANGRY 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 11994,
+        "Search Timestamp": 11994,
+        "Name": "黃士熏",
+        "Similarity": 80.4310531616211,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.99763488769531
+        },
+        "AgeRange": {
+            "Low": "12",
+            "Heigh": "18"
+        },
+        "Emotions": [
+            "CALM 100.00",
+            "SAD 0.00",
+            "ANGRY 0.00",
+            "CONFUSED 0.00",
+            "SURPRISED 0.00",
+            "HAPPY 0.00",
+            "FEAR 0.00",
+            "DISGUSTED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 12494,
+        "Search Timestamp": 12494,
+        "Name": "沈宏勳",
+        "Similarity": 99.61888885498047,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.96863555908203
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "19"
+        },
+        "Emotions": [
+            "CALM 99.80",
+            "SAD 0.10",
+            "ANGRY 0.01",
+            "HAPPY 0.00",
+            "CONFUSED 0.00",
+            "SURPRISED 0.00",
+            "FEAR 0.00",
+            "DISGUSTED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 12494,
+        "Search Timestamp": 12494,
+        "Name": "柯信汶",
+        "Similarity": 95.89229583740234,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "21"
+        },
+        "Emotions": [
+            "CALM 98.63",
+            "SAD 0.65",
+            "CONFUSED 0.00",
+            "HAPPY 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 12494,
+        "Search Timestamp": 12494,
+        "Name": "鄒博森",
+        "Similarity": 99.44998931884766,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.9996566772461
+        },
+        "AgeRange": {
+            "Low": "31",
+            "Heigh": "39"
+        },
+        "Emotions": [
+            "CALM 34.72",
+            "HAPPY 19.54",
+            "CONFUSED 1.38",
+            "SURPRISED 0.74",
+            "SAD 0.24",
+            "DISGUSTED 0.00",
+            "ANGRY 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 12494,
+        "Search Timestamp": 12494,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.25816345214844
+        },
+        "AgeRange": {
+            "Low": "12",
+            "Heigh": "18"
+        },
+        "Emotions": [
+            "CALM 98.63",
+            "SAD 0.58",
+            "ANGRY 0.06",
+            "CONFUSED 0.05",
+            "FEAR 0.01",
+            "SURPRISED 0.00",
+            "DISGUSTED 0.00",
+            "HAPPY 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 12993,
+        "Search Timestamp": 12993,
+        "Name": "沈宏勳",
+        "Similarity": 99.84667205810547,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.9906234741211
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "19"
+        },
+        "Emotions": [
+            "CALM 97.66",
+            "SAD 0.62",
+            "CONFUSED 0.36",
+            "ANGRY 0.14",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "SURPRISED 0.00",
+            "HAPPY 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 12993,
+        "Search Timestamp": 12993,
+        "Name": "柯信汶",
+        "Similarity": 88.80799102783203,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "21"
+        },
+        "Emotions": [
+            "CALM 89.23",
+            "SAD 5.57",
+            "CONFUSED 0.01",
+            "SURPRISED 0.00",
+            "HAPPY 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 12993,
+        "Search Timestamp": 12993,
+        "Name": "鄒博森",
+        "Similarity": 97.92355346679688,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.99956512451172
+        },
+        "AgeRange": {
+            "Low": "23",
+            "Heigh": "31"
+        },
+        "Emotions": [
+            "CALM 41.04",
+            "SAD 28.00",
+            "HAPPY 8.63",
+            "CONFUSED 4.23",
+            "SURPRISED 0.74",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 12993,
+        "Search Timestamp": 12993,
+        "Name": "黃士熏",
+        "Similarity": 99.29509735107422,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.999267578125
+        },
+        "AgeRange": {
+            "Low": "19",
+            "Heigh": "27"
+        },
+        "Emotions": [
+            "CALM 92.48",
+            "SAD 3.80",
+            "CONFUSED 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "HAPPY 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 13493,
+        "Search Timestamp": 13493,
+        "Name": "沈宏勳",
+        "Similarity": 99.85769653320312,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.99890899658203
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "21"
+        },
+        "Emotions": [
+            "CALM 98.63",
+            "ANGRY 0.63",
+            "SAD 0.08",
+            "CONFUSED 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "SURPRISED 0.00",
+            "HAPPY 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 13493,
+        "Search Timestamp": 13493,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "21"
+        },
+        "Emotions": [
+            "CALM 67.38",
+            "SAD 20.37",
+            "CONFUSED 0.00",
+            "HAPPY 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 13493,
+        "Search Timestamp": 13493,
+        "Name": "鄒博森",
+        "Similarity": 93.97450256347656,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.99998474121094
+        },
+        "AgeRange": {
+            "Low": "34",
+            "Heigh": "42"
+        },
+        "Emotions": [
+            "CALM 52.78",
+            "HAPPY 11.90",
+            "SAD 1.71",
+            "CONFUSED 1.61",
+            "SURPRISED 0.08",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 13493,
+        "Search Timestamp": 13493,
+        "Name": "黃士熏",
+        "Similarity": 99.35960388183594,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.9949951171875
+        },
+        "AgeRange": {
+            "Low": "11",
+            "Heigh": "17"
+        },
+        "Emotions": [
+            "CALM 94.34",
+            "SAD 2.80",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "HAPPY 0.00",
+            "SURPRISED 0.00",
+            "CONFUSED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 13993,
+        "Search Timestamp": 13993,
+        "Name": "沈宏勳",
+        "Similarity": 99.91024780273438,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.99996185302734
+        },
+        "AgeRange": {
+            "Low": "11",
+            "Heigh": "17"
+        },
+        "Emotions": [
+            "SAD 99.22",
+            "CALM 3.15",
+            "ANGRY 0.01",
+            "CONFUSED 0.00",
+            "FEAR 0.00",
+            "HAPPY 0.00",
+            "DISGUSTED 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 13993,
+        "Search Timestamp": 13993,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "21"
+        },
+        "Emotions": [
+            "CALM 54.90",
+            "SAD 51.16",
+            "CONFUSED 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "HAPPY 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 13993,
+        "Search Timestamp": 13993,
+        "Name": "黃士熏",
+        "Similarity": 91.8514175415039,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 67.87213134765625
+        },
+        "AgeRange": {
+            "Low": "26",
+            "Heigh": "34"
+        },
+        "Emotions": [
+            "CALM 97.07",
+            "SAD 1.48",
+            "HAPPY 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "SURPRISED 0.00",
+            "CONFUSED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 14493,
+        "Search Timestamp": 14493,
+        "Name": "沈宏勳",
+        "Similarity": 99.93852233886719,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "21"
+        },
+        "Emotions": [
+            "CALM 80.01",
+            "SAD 13.04",
+            "CONFUSED 0.01",
+            "HAPPY 0.00",
+            "SURPRISED 0.00",
+            "DISGUSTED 0.00",
+            "ANGRY 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 14493,
+        "Search Timestamp": 14493,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "11",
+            "Heigh": "17"
+        },
+        "Emotions": [
+            "SAD 100.00",
+            "CALM 0.00",
+            "CONFUSED 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "HAPPY 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 14493,
+        "Search Timestamp": 14493,
+        "Name": "鄒博森",
+        "Similarity": 97.49647521972656,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.99998474121094
+        },
+        "AgeRange": {
+            "Low": "22",
+            "Heigh": "30"
+        },
+        "Emotions": [
+            "SAD 92.60",
+            "CALM 29.59",
+            "CONFUSED 0.00",
+            "HAPPY 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 14493,
+        "Search Timestamp": 14493,
+        "Name": "黃士熏",
+        "Similarity": 86.8211441040039,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.90840148925781
+        },
+        "AgeRange": {
+            "Low": "12",
+            "Heigh": "18"
+        },
+        "Emotions": [
+            "CALM 97.27",
+            "SAD 1.33",
+            "ANGRY 0.00",
+            "CONFUSED 0.00",
+            "SURPRISED 0.00",
+            "FEAR 0.00",
+            "HAPPY 0.00",
+            "DISGUSTED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 14992,
+        "Search Timestamp": 14992,
+        "Name": "沈宏勳",
+        "Similarity": 99.8393325805664,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "21"
+        },
+        "Emotions": [
+            "SAD 99.95",
+            "CALM 0.18",
+            "CONFUSED 0.00",
+            "ANGRY 0.00",
+            "SURPRISED 0.00",
+            "HAPPY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 14992,
+        "Search Timestamp": 14992,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "21"
+        },
+        "Emotions": [
+            "CALM 99.80",
+            "SAD 0.09",
+            "CONFUSED 0.00",
+            "HAPPY 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 14992,
+        "Search Timestamp": 14992,
+        "Name": "鄒博森",
+        "Similarity": 98.29696655273438,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "21"
+        },
+        "Emotions": [
+            "SAD 99.95",
+            "CALM 0.17",
+            "ANGRY 0.00",
+            "CONFUSED 0.00",
+            "FEAR 0.00",
+            "DISGUSTED 0.00",
+            "HAPPY 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 14992,
+        "Search Timestamp": 14992,
+        "Name": "黃士熏",
+        "Similarity": 80.36802673339844,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 98.5704116821289
+        },
+        "AgeRange": {
+            "Low": "25",
+            "Heigh": "33"
+        },
+        "Emotions": [
+            "CALM 99.02",
+            "SAD 0.48",
+            "ANGRY 0.00",
+            "CONFUSED 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "HAPPY 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 15492,
+        "Search Timestamp": 15492,
+        "Name": "沈宏勳",
+        "Similarity": 99.9153060913086,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "19",
+            "Heigh": "25"
+        },
+        "Emotions": [
+            "CALM 100.00",
+            "HAPPY 0.01",
+            "SAD 0.00",
+            "ANGRY 0.00",
+            "CONFUSED 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 15492,
+        "Search Timestamp": 15492,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "19"
+        },
+        "Emotions": [
+            "CALM 94.34",
+            "SAD 2.83",
+            "CONFUSED 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "HAPPY 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 15492,
+        "Search Timestamp": 15492,
+        "Name": "鄒博森",
+        "Similarity": 99.82240295410156,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.44593048095703
+        },
+        "AgeRange": {
+            "Low": "26",
+            "Heigh": "34"
+        },
+        "Emotions": [
+            "CALM 98.44",
+            "SAD 0.75",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "HAPPY 0.00",
+            "SURPRISED 0.00",
+            "CONFUSED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 15992,
+        "Search Timestamp": 15992,
+        "Name": "沈宏勳",
+        "Similarity": 99.90209197998047,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.99986267089844
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "21"
+        },
+        "Emotions": [
+            "CALM 65.15",
+            "SAD 20.70",
+            "HAPPY 0.48",
+            "CONFUSED 0.21",
+            "ANGRY 0.01",
+            "SURPRISED 0.00",
+            "FEAR 0.00",
+            "DISGUSTED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 15992,
+        "Search Timestamp": 15992,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "21"
+        },
+        "Emotions": [
+            "CALM 90.33",
+            "SAD 4.84",
+            "CONFUSED 0.00",
+            "HAPPY 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 15992,
+        "Search Timestamp": 15992,
+        "Name": "鄒博森",
+        "Similarity": 99.82640838623047,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.33470916748047
+        },
+        "AgeRange": {
+            "Low": "44",
+            "Heigh": "52"
+        },
+        "Emotions": [
+            "CALM 68.84",
+            "SAD 19.06",
+            "ANGRY 0.00",
+            "SURPRISED 0.00",
+            "HAPPY 0.00",
+            "FEAR 0.00",
+            "CONFUSED 0.00",
+            "DISGUSTED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 16492,
+        "Search Timestamp": 16492,
+        "Name": "沈宏勳",
+        "Similarity": 99.91477966308594,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.99998474121094
+        },
+        "AgeRange": {
+            "Low": "19",
+            "Heigh": "25"
+        },
+        "Emotions": [
+            "CALM 99.22",
+            "SAD 0.23",
+            "HAPPY 0.04",
+            "CONFUSED 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 16492,
+        "Search Timestamp": 16492,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "21"
+        },
+        "Emotions": [
+            "CALM 92.48",
+            "SAD 3.72",
+            "CONFUSED 0.00",
+            "SURPRISED 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "HAPPY 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 16492,
+        "Search Timestamp": 16492,
+        "Name": "鄒博森",
+        "Similarity": 98.84123229980469,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.91018676757812
+        },
+        "AgeRange": {
+            "Low": "38",
+            "Heigh": "46"
+        },
+        "Emotions": [
+            "CALM 99.22",
+            "SAD 0.39",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "HAPPY 0.00",
+            "SURPRISED 0.00",
+            "CONFUSED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 16991,
+        "Search Timestamp": 16991,
+        "Name": "沈宏勳",
+        "Similarity": 99.87821960449219,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.9998779296875
+        },
+        "AgeRange": {
+            "Low": "19",
+            "Heigh": "25"
+        },
+        "Emotions": [
+            "SAD 55.01",
+            "CALM 52.73",
+            "CONFUSED 0.03",
+            "ANGRY 0.00",
+            "HAPPY 0.00",
+            "SURPRISED 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 16991,
+        "Search Timestamp": 16991,
+        "Name": "鄒博森",
+        "Similarity": 99.3561019897461,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "21"
+        },
+        "Emotions": [
+            "CALM 96.00",
+            "SAD 2.04",
+            "CONFUSED 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "HAPPY 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 17491,
+        "Search Timestamp": 17491,
+        "Name": "沈宏勳",
+        "Similarity": 99.93502044677734,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "14",
+            "Heigh": "22"
+        },
+        "Emotions": [
+            "CALM 98.63",
+            "SAD 0.61",
+            "HAPPY 0.01",
+            "ANGRY 0.01",
+            "CONFUSED 0.01",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 17491,
+        "Search Timestamp": 17491,
+        "Name": "鄒博森",
+        "Similarity": 99.68527221679688,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "21"
+        },
+        "Emotions": [
+            "CALM 99.61",
+            "SAD 0.19",
+            "CONFUSED 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "HAPPY 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 17491,
+        "Search Timestamp": 17491,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.99882507324219
+        },
+        "AgeRange": {
+            "Low": "7",
+            "Heigh": "15"
+        },
+        "Emotions": [
+            "SAD 98.55",
+            "CALM 5.78",
+            "CONFUSED 0.01",
+            "ANGRY 0.00",
+            "FEAR 0.00",
+            "HAPPY 0.00",
+            "DISGUSTED 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 17991,
+        "Search Timestamp": 17991,
+        "Name": "沈宏勳",
+        "Similarity": 99.98307800292969,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "21"
+        },
+        "Emotions": [
+            "CALM 97.46",
+            "SAD 0.42",
+            "HAPPY 0.27",
+            "CONFUSED 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 17991,
+        "Search Timestamp": 17991,
+        "Name": "鄒博森",
+        "Similarity": 99.71620178222656,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "21"
+        },
+        "Emotions": [
+            "SAD 91.48",
+            "CALM 33.81",
+            "CONFUSED 0.23",
+            "SURPRISED 0.01",
+            "ANGRY 0.00",
+            "HAPPY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 18491,
+        "Search Timestamp": 18491,
+        "Name": "沈宏勳",
+        "Similarity": 99.9933853149414,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.99934387207031
+        },
+        "AgeRange": {
+            "Low": "14",
+            "Heigh": "22"
+        },
+        "Emotions": [
+            "HAPPY 23.65",
+            "CALM 18.08",
+            "SAD 13.28",
+            "CONFUSED 0.02",
+            "SURPRISED 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 18491,
+        "Search Timestamp": 18491,
+        "Name": "鄒博森",
+        "Similarity": 99.80673217773438,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "21"
+        },
+        "Emotions": [
+            "CALM 69.60",
+            "SAD 18.31",
+            "CONFUSED 0.06",
+            "HAPPY 0.00",
+            "ANGRY 0.00",
+            "SURPRISED 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 18991,
+        "Search Timestamp": 18991,
+        "Name": "沈宏勳",
+        "Similarity": 99.75868225097656,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "21"
+        },
+        "Emotions": [
+            "CALM 95.21",
+            "SAD 2.32",
+            "CONFUSED 0.02",
+            "SURPRISED 0.00",
+            "HAPPY 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 18991,
+        "Search Timestamp": 18991,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.99971771240234
+        },
+        "AgeRange": {
+            "Low": "16",
+            "Heigh": "22"
+        },
+        "Emotions": [
+            "CALM 57.15",
+            "SAD 42.09",
+            "HAPPY 0.08",
+            "CONFUSED 0.06",
+            "SURPRISED 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 18991,
+        "Search Timestamp": 18991,
+        "Name": "鄒博森",
+        "Similarity": 99.27554321289062,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 97.85693359375
+        },
+        "AgeRange": {
+            "Low": "16",
+            "Heigh": "22"
+        },
+        "Emotions": [
+            "CALM 94.14",
+            "SAD 2.90",
+            "ANGRY 0.00",
+            "HAPPY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "SURPRISED 0.00",
+            "CONFUSED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 19490,
+        "Search Timestamp": 19490,
+        "Name": "沈宏勳",
+        "Similarity": 99.73143005371094,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "21"
+        },
+        "Emotions": [
+            "CALM 99.02",
+            "SAD 0.51",
+            "CONFUSED 0.00",
+            "SURPRISED 0.00",
+            "HAPPY 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 19490,
+        "Search Timestamp": 19490,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.999267578125
+        },
+        "AgeRange": {
+            "Low": "21",
+            "Heigh": "29"
+        },
+        "Emotions": [
+            "SAD 99.76",
+            "CALM 1.01",
+            "HAPPY 0.00",
+            "CONFUSED 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 19490,
+        "Search Timestamp": 19490,
+        "Name": "鄒博森",
+        "Similarity": 98.4977035522461,
+        "Gender": {
+            "Value": "Female",
+            "Confidence": 58.23246765136719
+        },
+        "AgeRange": {
+            "Low": "27",
+            "Heigh": "35"
+        },
+        "Emotions": [
+            "CALM 99.61",
+            "SAD 0.21",
+            "ANGRY 0.00",
+            "HAPPY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "SURPRISED 0.00",
+            "CONFUSED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 19990,
+        "Search Timestamp": 19990,
+        "Name": "沈宏勳",
+        "Similarity": 99.77549743652344,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "14",
+            "Heigh": "22"
+        },
+        "Emotions": [
+            "CALM 100.00",
+            "SAD 0.05",
+            "CONFUSED 0.00",
+            "HAPPY 0.00",
+            "SURPRISED 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 19990,
+        "Search Timestamp": 19990,
+        "Name": "鄒博森",
+        "Similarity": 98.85291290283203,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "16",
+            "Heigh": "22"
+        },
+        "Emotions": [
+            "SAD 97.91",
+            "CALM 8.33",
+            "CONFUSED 0.00",
+            "ANGRY 0.00",
+            "HAPPY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 20490,
+        "Search Timestamp": 20490,
+        "Name": "沈宏勳",
+        "Similarity": 99.94154357910156,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "12",
+            "Heigh": "18"
+        },
+        "Emotions": [
+            "SAD 94.25",
+            "CALM 22.90",
+            "CONFUSED 0.14",
+            "ANGRY 0.00",
+            "SURPRISED 0.00",
+            "HAPPY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 20490,
+        "Search Timestamp": 20490,
+        "Name": "鄒博森",
+        "Similarity": 98.71505737304688,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "14",
+            "Heigh": "22"
+        },
+        "Emotions": [
+            "SAD 96.84",
+            "CALM 12.59",
+            "CONFUSED 0.04",
+            "HAPPY 0.00",
+            "SURPRISED 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 20990,
+        "Search Timestamp": 20990,
+        "Name": "沈宏勳",
+        "Similarity": 99.96005249023438,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "19"
+        },
+        "Emotions": [
+            "SAD 57.38",
+            "CALM 51.45",
+            "CONFUSED 0.01",
+            "HAPPY 0.00",
+            "SURPRISED 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 20990,
+        "Search Timestamp": 20990,
+        "Name": "鄒博森",
+        "Similarity": 97.98455047607422,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.99993896484375
+        },
+        "AgeRange": {
+            "Low": "16",
+            "Heigh": "22"
+        },
+        "Emotions": [
+            "SAD 95.74",
+            "CALM 16.72",
+            "HAPPY 0.10",
+            "CONFUSED 0.01",
+            "SURPRISED 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 21489,
+        "Search Timestamp": 21489,
+        "Name": "沈宏勳",
+        "Similarity": 99.51200866699219,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "21"
+        },
+        "Emotions": [
+            "CALM 98.83",
+            "SAD 0.58",
+            "CONFUSED 0.02",
+            "SURPRISED 0.00",
+            "ANGRY 0.00",
+            "HAPPY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 21489,
+        "Search Timestamp": 21489,
+        "Name": "鄒博森",
+        "Similarity": 99.05400085449219,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "14",
+            "Heigh": "22"
+        },
+        "Emotions": [
+            "SAD 99.90",
+            "CALM 0.42",
+            "CONFUSED 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "HAPPY 0.00",
+            "SURPRISED 0.00"
+        ]
+    }
+]
