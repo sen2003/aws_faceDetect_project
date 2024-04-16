@@ -192,9 +192,9 @@ class VideoDetect:
             for personMatch in response['Persons']:
                 personFace = personMatch["Person"]["Face"]
                 # bounding_box = face['BoundingBox']
-                # print("Timestamp: " + str(personMatch['Timestamp']))
+                print("Timestamp: " + str(personMatch['Timestamp']))
 
-                if 'FaceMatches' in personMatch and len(personMatch['FaceMatches']) > 0:
+                if 'FaceMatches' in personMatch:
                     for faceMatch in personMatch['FaceMatches']:
                         face = faceMatch['Face']
                         search_data_match = {
@@ -347,6 +347,11 @@ def DrawBoundingBox(bucket, video, search_results):
         active_faces = [
             face for face in active_faces if face['Name'] != 'Unknow']
 
+        # active_faces_copy = active_faces.copy()
+        # for face in active_faces_copy:
+        #     if abs(timestamp - face['Timestamp_search']) > (1000 / fps):
+        #         active_faces.remove(face)
+
         for face in active_faces:
             left = int(face['BoundingBox']['Left'] * img_width)
             top = int(face['BoundingBox']['Top'] * img_height)
@@ -368,7 +373,7 @@ def main():
 
     roleArn = 'arn:aws:iam::637423267378:role/LabRole'
     bucket = 'lab-video-search'
-    video = 'video_detect04.mp4'
+    video = 'video_detect06.MOV'
 
     session = boto3.Session(profile_name='default')
     client = session.client('rekognition')
