@@ -305,7 +305,7 @@ def cv2ChineseText(img, text, position, textColor, textSize):
     return cv2.cvtColor(np.asanyarray(img), cv2.COLOR_RGB2BGR)
 
 
-def DrawBoundingBox(bucket, video, search_results):
+def DrawBoundingBox(bucket, video, search_results,detection_results):
     tmp_filename = './input.mp4'
 
     s3_client = boto3.resource('s3')
@@ -318,7 +318,7 @@ def DrawBoundingBox(bucket, video, search_results):
 
     fourcc = cv2.VideoWriter_fourcc(*'mp4v')
     output_video = cv2.VideoWriter(
-        './output.mp4', fourcc, fps, (img_width, img_height))
+        './output3.mp4', fourcc, fps, (img_width, img_height))
 
     active_faces = []
 
@@ -329,7 +329,7 @@ def DrawBoundingBox(bucket, video, search_results):
 
         timestamp = cap.get(cv2.CAP_PROP_POS_MSEC)
 
-        for search_result in search_results:
+        for search_result,detection_result in zip(search_results,detection_results):
             if abs(timestamp - search_result['Timestamp_search']) < (1000 / fps):
                 update = False
                 for face in active_faces:
@@ -346,7 +346,7 @@ def DrawBoundingBox(bucket, video, search_results):
 
         active_faces = [
             face for face in active_faces if face['Name'] != 'Unknow']
-
+        
         for face in active_faces:
             left = int(face['BoundingBox']['Left'] * img_width)
             top = int(face['BoundingBox']['Top'] * img_height)
@@ -368,7 +368,7 @@ def main():
 
     roleArn = 'arn:aws:iam::637423267378:role/LabRole'
     bucket = 'lab-video-search'
-    video = 'video_detect04.mp4'
+    video = 'video_detect07.mp4'
 
     session = boto3.Session(profile_name='default')
     client = session.client('rekognition')
@@ -388,9 +388,9 @@ def main():
         final_results = analyzer.GetFinalResult(
             detection_results, search_results)
         results_json = json.dumps(final_results, indent=4, ensure_ascii=False)
-        with open('final_results.json', 'w', encoding='utf-8') as f:
+        with open('final_results02.json', 'w', encoding='utf-8') as f:
             f.write(results_json)
-        DrawBoundingBox(bucket, video, search_results)
+        DrawBoundingBox(bucket, video, search_results,detection_results)
 
     analyzer.DeleteTopicandQueue()
 

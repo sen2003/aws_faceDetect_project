@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en-Us">
+	<head>
+		<title>website</title>
+		<link href="/favicon.ico" rel="icon" type="image/x-icon" />
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Zen+Dots&display=swap" rel="stylesheet">
+		<!-- <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet"> -->
+		<link rel="stylesheet" href="styles/reset.css" />
+		<link rel="stylesheet" href="styles/main.css" />
+		<link rel="stylesheet" href="styles/navigation.css" />
+		<link rel="stylesheet" href="styles/pastries.css" />
+		<link rel="stylesheet" href="styles/coffee.css" />
+		<link rel="stylesheet" href="styles/beans.css" />
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+	</head>
+	<style>
+.container {	
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+video {
+  transform: scaleX(-1);
+  margin: 0 5px;
+  background-color: rgb(200, 200, 200);
+
+}
+.btn-group {
+  padding-top: 10px;
+
+}
+button {
+  padding: 5px 20px;
+  font-size: 18px;
+  margin: 0 5px;
+  color: white;
+  width: 100px;
+  border-radius: 7px;
+
+}
+.success {
+  border: 2.5px solid #548235;
+  background-color: #70AD47;
+}
+.danger {
+  border: 2.5px solid #C00000;
+  background-color: rgba(192, 0, 0, 0.6);
+}
+			
+</style>
+	<body>
+		<section>
+			<header data-expanded="not_expanded">
+				<h1>
+Title					<!-- <img src="images/logo.png" /> -->
+				</h1>
+				<span data-action="toggle_navigation"></span>	
+				<!--<aside data-action="attempt_login">login</aside>-->
+				<aside data-action="attempt_login"><a href="login.html">login</a></aside>
+			</header>
+			
+			
+			
+			<div class="container">
+				<video width="1500" playsinline autoplay></video>
+  <div class="btn-group">
+    <button id="record" class="success">record</button>
+    <button id="stop" class="danger">stop</button>
+  </div>
+</div>
+			
+			
+			
+	
+			<main>
+
+
+				<section data-role="browse_pastries_content">
+					<a name="browse_pastries">back to top</a>
+					<h2>DATA TABLE</h2>
+					<span data-selected="not_selected" data-action="show_all">管理</span>
+					<span data-selected="selected" data-action="show_on_offer">搜尋
+</span>
+					<output data-role="toast"></output>
+				</section>
+
+				<section data-role="browse_coffee_content">
+
+				</section>
+
+				<section data-role="contact_us_content">
+
+		</section>
+		<script src="config.js"></script>
+		<script src="scripts/jquery-3.6.0.min.js"></script>
+		<script src="scripts/main.js"></script>
+		<script src="scripts/navigation.js"></script>
+		<script src="scripts/pastries.js"></script>
+		<script src="scripts/coffee.js"></script>
+        
+
+<script>
+
+document.addEventListener('DOMContentLoaded', function () {
+    const video = document.querySelector('video');
+    const recordButton = document.getElementById('record');
+    const stopButton = document.getElementById('stop');
+    let mediaRecorder;
+    let chunks = [];
+
+    let stream;
+
+    recordButton.addEventListener('click', function () {
+        navigator.mediaDevices.getUserMedia({ video: true })
+            .then(function (mediaStream) {
+                stream = mediaStream;
+                video.srcObject = mediaStream;
+                mediaRecorder = new MediaRecorder(mediaStream);
+
+                mediaRecorder.ondataavailable = function (e) {
+                    chunks.push(e.data);
+                };
+
+                mediaRecorder.onstop = function () {
+                    const blob = new Blob(chunks, { type: 'video/mp4' });
+                    chunks = [];
+                    const currentDate = new Date();
+                    const year = currentDate.getFullYear();
+                    const month = String(currentDate.getMonth() + 1).padStart(2, '0');
+                    const day = String(currentDate.getDate()).padStart(2, '0');
+                    const hours = String(currentDate.getHours()).padStart(2, '0');
+                    const minutes = String(currentDate.getMinutes()).padStart(2, '0');
+                    const seconds = String(currentDate.getSeconds()).padStart(2, '0');
+
+                    const filename = `${year}-${month}-${day}_${hours}-${minutes}-${seconds}.mp4`;
+                    const url = URL.createObjectURL(blob);
+                    const a = document.createElement('a');
+                    a.href = url;
+                    a.download = filename;
+                    document.body.appendChild(a);
+                    a.click();
+                    window.URL.revokeObjectURL(url);
+                };
+
+                mediaRecorder.start();
+                recordButton.disabled = true;
+                stopButton.disabled = false;
+            })
+            .catch(function (err) {
+                console.error('Error accessing media devices', err);
+            });
+    });
+
+    stopButton.addEventListener('click', function () {
+        mediaRecorder.stop();
+        stream.getTracks().forEach(track => track.stop());
+        recordButton.disabled = false;
+        stopButton.disabled = true;
+    });
+});
+
+
+
+</script>
+	</body>
+</html>

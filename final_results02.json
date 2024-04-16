@@ -1,0 +1,746 @@
+[
+    {
+        "Detection Timestamp": 587,
+        "Search Timestamp": 587,
+        "Name": "沈宏勳",
+        "Similarity": 99.73407745361328,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.9976577758789
+        },
+        "AgeRange": {
+            "Low": "21",
+            "Heigh": "29"
+        },
+        "Emotions": [
+            "CALM 99.22",
+            "SURPRISED 0.96",
+            "CONFUSED 0.02",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "HAPPY 0.00",
+            "SAD 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 1087,
+        "Search Timestamp": 1087,
+        "Name": "沈宏勳",
+        "Similarity": 99.99991607666016,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.99862670898438
+        },
+        "AgeRange": {
+            "Low": "18",
+            "Heigh": "22"
+        },
+        "Emotions": [
+            "CALM 84.90",
+            "HAPPY 2.98",
+            "CONFUSED 0.08",
+            "SURPRISED 0.03",
+            "SAD 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 1587,
+        "Search Timestamp": 1587,
+        "Name": "沈宏勳",
+        "Similarity": 99.9998779296875,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.99813079833984
+        },
+        "AgeRange": {
+            "Low": "22",
+            "Heigh": "30"
+        },
+        "Emotions": [
+            "CALM 98.44",
+            "HAPPY 0.25",
+            "CONFUSED 0.00",
+            "SAD 0.00",
+            "SURPRISED 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 2087,
+        "Search Timestamp": 2087,
+        "Name": "沈宏勳",
+        "Similarity": 99.99990844726562,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.99858856201172
+        },
+        "AgeRange": {
+            "Low": "23",
+            "Heigh": "31"
+        },
+        "Emotions": [
+            "CALM 97.66",
+            "HAPPY 0.39",
+            "SAD 0.00",
+            "CONFUSED 0.00",
+            "SURPRISED 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 2587,
+        "Search Timestamp": 2587,
+        "Name": "沈宏勳",
+        "Similarity": 99.99993133544922,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.9754867553711
+        },
+        "AgeRange": {
+            "Low": "23",
+            "Heigh": "31"
+        },
+        "Emotions": [
+            "CALM 98.63",
+            "HAPPY 0.24",
+            "CONFUSED 0.00",
+            "SAD 0.00",
+            "SURPRISED 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 3087,
+        "Search Timestamp": 3087,
+        "Name": "沈宏勳",
+        "Similarity": 99.95732879638672,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.99950408935547
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "21"
+        },
+        "Emotions": [
+            "CALM 100.00",
+            "SAD 0.00",
+            "CONFUSED 0.00",
+            "HAPPY 0.00",
+            "ANGRY 0.00",
+            "SURPRISED 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 3587,
+        "Search Timestamp": 3587,
+        "Name": "沈宏勳",
+        "Similarity": 99.90563201904297,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.99935913085938
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "21"
+        },
+        "Emotions": [
+            "CALM 100.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "HAPPY 0.00",
+            "SAD 0.00",
+            "SURPRISED 0.00",
+            "CONFUSED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 4087,
+        "Search Timestamp": 4087,
+        "Name": "沈宏勳",
+        "Similarity": 99.99980926513672,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "22",
+            "Heigh": "30"
+        },
+        "Emotions": [
+            "CALM 100.00",
+            "CONFUSED 0.01",
+            "HAPPY 0.00",
+            "SURPRISED 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00",
+            "SAD 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 5587,
+        "Search Timestamp": 7587,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 85.07763671875
+        },
+        "AgeRange": {
+            "Low": "6",
+            "Heigh": "14"
+        },
+        "Emotions": [
+            "SAD 90.84",
+            "CALM 36.33",
+            "HAPPY 0.10",
+            "CONFUSED 0.01",
+            "SURPRISED 0.00",
+            "ANGRY 0.00",
+            "DISGUSTED 0.00",
+            "FEAR 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 7087,
+        "Search Timestamp": 8087,
+        "Name": "柯信汶",
+        "Similarity": 91.97159576416016,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.94540405273438
+        },
+        "AgeRange": {
+            "Low": "11",
+            "Heigh": "17"
+        },
+        "Emotions": [
+            "CALM 100.00",
+            "CONFUSED 0.01",
+            "ANGRY 0.00",
+            "SAD 0.00",
+            "FEAR 0.00",
+            "DISGUSTED 0.00",
+            "HAPPY 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 7587,
+        "Search Timestamp": 8587,
+        "Name": "柯信汶",
+        "Similarity": 92.4660415649414,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.99998474121094
+        },
+        "AgeRange": {
+            "Low": "11",
+            "Heigh": "17"
+        },
+        "Emotions": [
+            "CALM 99.80",
+            "ANGRY 0.04",
+            "SAD 0.01",
+            "CONFUSED 0.00",
+            "FEAR 0.00",
+            "DISGUSTED 0.00",
+            "HAPPY 0.00",
+            "SURPRISED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 8087,
+        "Search Timestamp": 9087,
+        "Name": "柯信汶",
+        "Similarity": 93.70305633544922,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.99968719482422
+        },
+        "AgeRange": {
+            "Low": "11",
+            "Heigh": "17"
+        },
+        "Emotions": [
+            "CALM 97.27",
+            "FEAR 1.07",
+            "ANGRY 0.19",
+            "SAD 0.10",
+            "SURPRISED 0.02",
+            "CONFUSED 0.00",
+            "DISGUSTED 0.00",
+            "HAPPY 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 8587,
+        "Search Timestamp": 9587,
+        "Name": "柯信汶",
+        "Similarity": 95.16703796386719,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.97054290771484
+        },
+        "AgeRange": {
+            "Low": "12",
+            "Heigh": "18"
+        },
+        "Emotions": [
+            "CALM 49.14",
+            "FEAR 31.76",
+            "ANGRY 9.25",
+            "SAD 2.98",
+            "DISGUSTED 2.14",
+            "HAPPY 0.04",
+            "SURPRISED 0.02",
+            "CONFUSED 0.01"
+        ]
+    },
+    {
+        "Detection Timestamp": 9087,
+        "Search Timestamp": 10087,
+        "Name": "柯信汶",
+        "Similarity": 86.57976531982422,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.99968719482422
+        },
+        "AgeRange": {
+            "Low": "11",
+            "Heigh": "17"
+        },
+        "Emotions": [
+            "CALM 99.80",
+            "FEAR 0.05",
+            "ANGRY 0.00",
+            "SURPRISED 0.00",
+            "SAD 0.00",
+            "CONFUSED 0.00",
+            "DISGUSTED 0.00",
+            "HAPPY 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 9587,
+        "Search Timestamp": 10587,
+        "Name": "柯信汶",
+        "Similarity": 96.284912109375,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.99862670898438
+        },
+        "AgeRange": {
+            "Low": "11",
+            "Heigh": "17"
+        },
+        "Emotions": [
+            "CALM 99.80",
+            "ANGRY 0.06",
+            "SURPRISED 0.02",
+            "SAD 0.02",
+            "FEAR 0.01",
+            "CONFUSED 0.00",
+            "DISGUSTED 0.00",
+            "HAPPY 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 10087,
+        "Search Timestamp": 11087,
+        "Name": "柯信汶",
+        "Similarity": 98.21504211425781,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.997314453125
+        },
+        "AgeRange": {
+            "Low": "11",
+            "Heigh": "17"
+        },
+        "Emotions": [
+            "CALM 99.61",
+            "FEAR 0.14",
+            "ANGRY 0.10",
+            "SURPRISED 0.00",
+            "DISGUSTED 0.00",
+            "SAD 0.00",
+            "CONFUSED 0.00",
+            "HAPPY 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 10587,
+        "Search Timestamp": 11587,
+        "Name": "柯信汶",
+        "Similarity": 98.41978454589844,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.95596313476562
+        },
+        "AgeRange": {
+            "Low": "11",
+            "Heigh": "17"
+        },
+        "Emotions": [
+            "FEAR 86.72",
+            "CALM 11.88",
+            "SURPRISED 3.23",
+            "SAD 0.09",
+            "ANGRY 0.03",
+            "HAPPY 0.00",
+            "CONFUSED 0.00",
+            "DISGUSTED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 11087,
+        "Search Timestamp": 12087,
+        "Name": "柯信汶",
+        "Similarity": 90.46780395507812,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.98859405517578
+        },
+        "AgeRange": {
+            "Low": "11",
+            "Heigh": "17"
+        },
+        "Emotions": [
+            "FEAR 97.07",
+            "CALM 1.38",
+            "SURPRISED 1.11",
+            "SAD 1.01",
+            "ANGRY 0.11",
+            "CONFUSED 0.02",
+            "DISGUSTED 0.00",
+            "HAPPY 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 11587,
+        "Search Timestamp": 12587,
+        "Name": "柯信汶",
+        "Similarity": 90.78001403808594,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 96.8490982055664
+        },
+        "AgeRange": {
+            "Low": "11",
+            "Heigh": "17"
+        },
+        "Emotions": [
+            "FEAR 72.31",
+            "SAD 23.10",
+            "CALM 3.13",
+            "SURPRISED 1.16",
+            "ANGRY 0.63",
+            "CONFUSED 0.30",
+            "DISGUSTED 0.05",
+            "HAPPY 0.01"
+        ]
+    },
+    {
+        "Detection Timestamp": 12087,
+        "Search Timestamp": 14087,
+        "Name": "柯信汶",
+        "Similarity": 85.3169174194336,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.9538345336914
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "19"
+        },
+        "Emotions": [
+            "FEAR 85.60",
+            "CALM 14.38",
+            "SAD 0.02",
+            "ANGRY 0.00",
+            "CONFUSED 0.00",
+            "SURPRISED 0.00",
+            "DISGUSTED 0.00",
+            "HAPPY 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 12587,
+        "Search Timestamp": 14587,
+        "Name": "柯信汶",
+        "Similarity": 88.396484375,
+        "Gender": {
+            "Value": "Female",
+            "Confidence": 67.59606170654297
+        },
+        "AgeRange": {
+            "Low": "12",
+            "Heigh": "18"
+        },
+        "Emotions": [
+            "CALM 68.57",
+            "SAD 7.70",
+            "FEAR 5.11",
+            "SURPRISED 4.73",
+            "ANGRY 2.43",
+            "CONFUSED 1.14",
+            "DISGUSTED 0.93",
+            "HAPPY 0.05"
+        ]
+    },
+    {
+        "Detection Timestamp": 14087,
+        "Search Timestamp": 15087,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 68.3756332397461
+        },
+        "AgeRange": {
+            "Low": "11",
+            "Heigh": "17"
+        },
+        "Emotions": [
+            "CALM 35.89",
+            "FEAR 25.54",
+            "SAD 21.81",
+            "ANGRY 13.79",
+            "DISGUSTED 0.84",
+            "CONFUSED 0.78",
+            "SURPRISED 0.42",
+            "HAPPY 0.40"
+        ]
+    },
+    {
+        "Detection Timestamp": 14587,
+        "Search Timestamp": 15587,
+        "Name": "柯信汶",
+        "Similarity": 96.15975952148438,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.87532043457031
+        },
+        "AgeRange": {
+            "Low": "11",
+            "Heigh": "17"
+        },
+        "Emotions": [
+            "CALM 58.51",
+            "ANGRY 28.64",
+            "SAD 0.56",
+            "FEAR 0.35",
+            "DISGUSTED 0.10",
+            "CONFUSED 0.05",
+            "SURPRISED 0.00",
+            "HAPPY 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 15087,
+        "Search Timestamp": 16087,
+        "Name": "柯信汶",
+        "Similarity": 97.25108337402344,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.98863220214844
+        },
+        "AgeRange": {
+            "Low": "11",
+            "Heigh": "17"
+        },
+        "Emotions": [
+            "CALM 52.65",
+            "ANGRY 35.13",
+            "FEAR 4.49",
+            "SAD 0.59",
+            "DISGUSTED 0.04",
+            "CONFUSED 0.01",
+            "SURPRISED 0.00",
+            "HAPPY 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 15587,
+        "Search Timestamp": 16587,
+        "Name": "Unknow",
+        "Similarity": 0,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.97349548339844
+        },
+        "AgeRange": {
+            "Low": "11",
+            "Heigh": "17"
+        },
+        "Emotions": [
+            "FEAR 90.92",
+            "CALM 8.46",
+            "HAPPY 0.14",
+            "ANGRY 0.10",
+            "SAD 0.09",
+            "SURPRISED 0.03",
+            "DISGUSTED 0.02",
+            "CONFUSED 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 16087,
+        "Search Timestamp": 17087,
+        "Name": "柯信汶",
+        "Similarity": 96.31466674804688,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "12",
+            "Heigh": "18"
+        },
+        "Emotions": [
+            "FEAR 98.39",
+            "CALM 1.57",
+            "ANGRY 0.01",
+            "SURPRISED 0.01",
+            "DISGUSTED 0.01",
+            "SAD 0.00",
+            "CONFUSED 0.00",
+            "HAPPY 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 16587,
+        "Search Timestamp": 17587,
+        "Name": "柯信汶",
+        "Similarity": 94.90611267089844,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.99998474121094
+        },
+        "AgeRange": {
+            "Low": "12",
+            "Heigh": "18"
+        },
+        "Emotions": [
+            "CALM 99.80",
+            "FEAR 0.09",
+            "SAD 0.01",
+            "ANGRY 0.01",
+            "CONFUSED 0.00",
+            "SURPRISED 0.00",
+            "DISGUSTED 0.00",
+            "HAPPY 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 17087,
+        "Search Timestamp": 18087,
+        "Name": "柯信汶",
+        "Similarity": 98.69473266601562,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.99998474121094
+        },
+        "AgeRange": {
+            "Low": "12",
+            "Heigh": "18"
+        },
+        "Emotions": [
+            "CALM 98.83",
+            "ANGRY 0.46",
+            "SAD 0.04",
+            "CONFUSED 0.03",
+            "SURPRISED 0.02",
+            "FEAR 0.00",
+            "DISGUSTED 0.00",
+            "HAPPY 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 17587,
+        "Search Timestamp": 18587,
+        "Name": "柯信汶",
+        "Similarity": 99.95893096923828,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 100.0
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "19"
+        },
+        "Emotions": [
+            "CALM 95.41",
+            "CONFUSED 1.68",
+            "FEAR 0.45",
+            "SAD 0.16",
+            "ANGRY 0.02",
+            "SURPRISED 0.01",
+            "DISGUSTED 0.00",
+            "HAPPY 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 18087,
+        "Search Timestamp": 19087,
+        "Name": "柯信汶",
+        "Similarity": 99.96939849853516,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.992431640625
+        },
+        "AgeRange": {
+            "Low": "12",
+            "Heigh": "18"
+        },
+        "Emotions": [
+            "CALM 67.97",
+            "FEAR 18.80",
+            "SURPRISED 1.97",
+            "CONFUSED 0.09",
+            "ANGRY 0.05",
+            "DISGUSTED 0.03",
+            "SAD 0.01",
+            "HAPPY 0.00"
+        ]
+    },
+    {
+        "Detection Timestamp": 18587,
+        "Search Timestamp": 19587,
+        "Name": "柯信汶",
+        "Similarity": 99.98544311523438,
+        "Gender": {
+            "Value": "Male",
+            "Confidence": 99.99696350097656
+        },
+        "AgeRange": {
+            "Low": "13",
+            "Heigh": "21"
+        },
+        "Emotions": [
+            "CALM 99.22",
+            "CONFUSED 0.30",
+            "ANGRY 0.06",
+            "DISGUSTED 0.00",
+            "SAD 0.00",
+            "SURPRISED 0.00",
+            "HAPPY 0.00",
+            "FEAR 0.00"
+        ]
+    }
+]

@@ -150,15 +150,15 @@ class VideoDetect:
                 # print('Face: ' + str(faceDetection['Face']))
                 faceDetails = faceDetection['Face']
                 emotions = [
-                    f"{word_convert(emotion['Type'])}({emotion['Confidence']:.2f}%)" for emotion in faceDetails['Emotions']]
+                    f"{emotion['Type']} {emotion['Confidence']:.2f}" for emotion in faceDetails['Emotions']]
                 detection_data = {
                     'Timestamp_detection': faceDetection['Timestamp'],
-                    'Gender': {'Value': word_convert(faceDetails['Gender']['Value']),
+                    'BoundingBox': faceDetection['Face']['BoundingBox'],
+                    'Gender': {'Value': faceDetails['Gender']['Value'],
                                'Confidence': faceDetails['Gender']['Confidence']},
                     'AgeRange': {
                         'Low': str(faceDetails['AgeRange']['Low']), 'Heigh': str(faceDetails['AgeRange']['High'])},
-                    'Emotions': emotions,
-                    'BoundingBox': faceDetection['Face']['BoundingBox']
+                    'Emotions': emotions
                 }
                 detection_results.append(detection_data)
 
@@ -193,11 +193,12 @@ class VideoDetect:
                 personFace = personMatch["Person"]["Face"]
                 # bounding_box = face['BoundingBox']
                 # print("Timestamp: " + str(personMatch['Timestamp']))
+
                 if 'FaceMatches' in personMatch and len(personMatch['FaceMatches']) > 0:
                     for faceMatch in personMatch['FaceMatches']:
                         face = faceMatch['Face']
                         search_data_match = {
-                            "Timestamp_search": personMatch['Timestamp'],
+                            'Timestamp_search': personMatch['Timestamp'],
                             "BoundingBox": personFace['BoundingBox'],
                             'Name': name_convert(face['ExternalImageId']),
                             'Similarity': faceMatch['Similarity']
@@ -205,12 +206,14 @@ class VideoDetect:
                         search_results.append(search_data_match)
                 else:
                     search_data_no_match = {
-                        "Timestamp_search": personMatch['Timestamp'],
-                        "BoundingBox": personFace['BoundingBox'],
-                        'Name': 'Unknow',
-                        'Similarity': 0.00
+                        'Timestamp_search': personMatch['Timestamp'],
+                        'BoundingBox': personFace['BoundingBox'],
+                        'Name': "Unknow",
+                        'Similarity': 0
                     }
+
                     search_results.append(search_data_no_match)
+
                     # print("   未知人臉")
                     # print()
                 if 'NextToken' in response:
@@ -277,41 +280,20 @@ class VideoDetect:
         self.sns.delete_topic(TopicArn=self.snsTopicArn)
 
     def GetFinalResult(self, detection_results, search_results):
-        search_results_dict = {
-            int(result['Timestamp_search']): result for result in search_results}
-
-        for detection in detection_results:
-            timestamp_detection = int(detection['Timestamp_detection'])
-
-            match_range = 100
-            matched_search_result = None
-
-            for timestamp_search in range(timestamp_detection - match_range, timestamp_detection + match_range + 1):
-                if timestamp_search in search_results_dict:
-                    matched_search_result = search_results_dict[timestamp_search]
-                    break
-
-            if matched_search_result:
-                print(
-                    f"Detection Timestamp: {detection['Timestamp_detection']}")
-                print(
-                    f"Search Timestamp: {matched_search_result['Timestamp_search']}")
-                print(
-                    f"姓名: {matched_search_result['Name']} ({matched_search_result['Similarity']:.2f}%)")
-                print(
-                    f"性別: {detection['Gender']['Value']} ({detection['Gender']['Confidence']:.2f}%)")
-                print(
-                    f"年齡區間: {detection['AgeRange']['Low']}-{detection['AgeRange']['Heigh']}")
-                print(f"情緒: {' , '.join(detection['Emotions'])}")
-
-                print(
-                    "------------------------------------------------------------------------------------------------------------------")
-            else:
-                print(
-                    f"Detection Timestamp: {detection['Timestamp_detection']} - No matching face found in search results.")
-                print(
-                    "------------------------------------------------------------------------------------------------------------------")
-        # return search_results_dict
+        final_results = []
+        for detection, search in zip(detection_results, search_results):
+            final_datas = {
+                'Detection Timestamp': detection['Timestamp_detection'],
+                'Search Timestamp': search['Timestamp_search'],
+                'Name': search['Name'],
+                'Similarity': search['Similarity'],
+                'Gender': {'Value': detection['Gender']['Value'], 'Confidence': detection['Gender']['Confidence']},
+                'AgeRange': {'Low': detection['AgeRange']['Low'], 'Heigh': detection['AgeRange']['Heigh']},
+                # 'Emotions': {'Type': detection['Emotions']['Type'], 'Confidence': detection['Emotions']['Confidence']}
+                'Emotions': detection['Emotions']
+            }
+            final_results.append(final_datas)
+        return final_results
 
 
 def cv2ChineseText(img, text, position, textColor, textSize):
@@ -323,7 +305,7 @@ def cv2ChineseText(img, text, position, textColor, textSize):
     return cv2.cvtColor(np.asanyarray(img), cv2.COLOR_RGB2BGR)
 
 
-def DrawBoundingBox(bucket, video, detection_results, search_results):
+def DrawBoundingBox(bucket, video, search_results):
     tmp_filename = './input.mp4'
 
     s3_client = boto3.resource('s3')
@@ -335,15 +317,10 @@ def DrawBoundingBox(bucket, video, detection_results, search_results):
     img_height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 
     fourcc = cv2.VideoWriter_fourcc(*'mp4v')
-    video = cv2.VideoWriter('./output.mp4', fourcc,
-                            fps, (img_width, img_height))
-    cur_idx = 0
-    left = int(search_results[cur_idx]['BoundingBox']['Left'] * img_width)
-    top = int(search_results[cur_idx]['BoundingBox']['Top'] * img_height)
-    right = int((search_results[cur_idx]['BoundingBox']['Left'] +
-                search_results[cur_idx]['BoundingBox']['Width']) * img_width)
-    bottom = int((search_results[cur_idx]['BoundingBox']['Top'] +
-                 search_results[cur_idx]['BoundingBox']['Height']) * img_height)
+    output_video = cv2.VideoWriter(
+        './output2.mp4', fourcc, fps, (img_width, img_height))
+
+    active_faces = []
 
     while True:
         ret, frame = cap.read()
@@ -351,31 +328,47 @@ def DrawBoundingBox(bucket, video, detection_results, search_results):
             break
 
         timestamp = cap.get(cv2.CAP_PROP_POS_MSEC)
+
         for search_result in search_results:
             if abs(timestamp - search_result['Timestamp_search']) < (1000 / fps):
-                left = int(search_result['BoundingBox']['Left'] * img_width)
-                top = int(search_result['BoundingBox']['Top'] * img_height)
-                right = int((search_result['BoundingBox']['Left'] +
-                             search_result['BoundingBox']['Width']) * img_width)
-                bottom = int((search_result['BoundingBox']['Top'] +
-                              search_result['BoundingBox']['Height']) * img_height)
+                update = False
+                for face in active_faces:
+                    if face['Name'] == search_result['Name']:
+                        face['BoundingBox'] = search_result['BoundingBox']
+                        face['Timestamp'] = timestamp
+                        face['Timestamp_search'] = search_result['Timestamp_search']
+                        face['Similarity'] = search_result['Similarity']
+                        # face['Name'] = search_result['Name']
+                        update = True
+                        break
+                if not update:
+                    active_faces.append(search_result)
 
-                cv2.rectangle(frame, (left, top),
-                              (right, bottom), (0, 0, 255), 2)
-                frame = cv2ChineseText(
-                    frame, f"{search_result['Name']}({search_result['Similarity']:.2f}%)", (left, top-30), (36, 255, 12), 24)
+        active_faces = [
+            face for face in active_faces if face['Name'] != 'Unknow']
 
-        video.write(frame)
-
+        for face in active_faces:
+            left = int(face['BoundingBox']['Left'] * img_width)
+            top = int(face['BoundingBox']['Top'] * img_height)
+            right = int((face['BoundingBox']['Left'] +
+                        face['BoundingBox']['Width']) * img_width)
+            bottom = int((face['BoundingBox']['Top'] +
+                          face['BoundingBox']['Height']) * img_height)
+            cv2.rectangle(frame, (left, top), (right, bottom), (0, 0, 255), 2)
+            frame = cv2ChineseText(
+                frame, f"{face['Name']}({face['Similarity']:.2f}%)", (left, top - 30), (36, 255, 12), 24)
+            if (face['Timestamp_search'] == search_results[-1]['Timestamp_search']):
+                active_faces = []
+        output_video.write(frame)
     cap.release()
-    video.release()
+    output_video.release()
 
 
 def main():
 
     roleArn = 'arn:aws:iam::637423267378:role/LabRole'
     bucket = 'lab-video-search'
-    video = 'video_detect04.mp4'
+    video = 'video_detect02.mp4'
 
     session = boto3.Session(profile_name='default')
     client = session.client('rekognition')
@@ -392,12 +385,12 @@ def main():
     if analyzer.GetSQSMessageSuccess() == True:
         detection_results = analyzer.GetFaceDetectionResults()
         search_results = analyzer.GetFaceSearchCollectionResults()
-        analyzer.GetFinalResult(detection_results, search_results)
-        #     detection_results, search_results)
-        # results_json = json.dumps(final_result, indent=4, ensure_ascii=False)
-        # with open('detection_results.json', 'w', encoding='utf-8') as f:
-        #     f.write(results_json)
-        DrawBoundingBox(bucket, video, detection_results, search_results)
+        final_results = analyzer.GetFinalResult(
+            detection_results, search_results)
+        results_json = json.dumps(final_results, indent=4, ensure_ascii=False)
+        with open('final_results02.json', 'w', encoding='utf-8') as f:
+            f.write(results_json)
+        DrawBoundingBox(bucket, video, search_results)
 
     analyzer.DeleteTopicandQueue()
 
