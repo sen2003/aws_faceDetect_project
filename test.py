@@ -192,7 +192,7 @@ class VideoDetect:
             for personMatch in response['Persons']:
                 personFace = personMatch["Person"]["Face"]
                 # bounding_box = face['BoundingBox']
-                print("Timestamp: " + str(personMatch['Timestamp']))
+                # print("Timestamp: " + str(personMatch['Timestamp']))
 
                 if 'FaceMatches' in personMatch:
                     for faceMatch in personMatch['FaceMatches']:
@@ -373,7 +373,7 @@ def main():
 
     roleArn = 'arn:aws:iam::637423267378:role/LabRole'
     bucket = 'lab-video-search'
-    video = 'video_detect06.MOV'
+    video = 'video_detect04.mp4'
 
     session = boto3.Session(profile_name='default')
     client = session.client('rekognition')

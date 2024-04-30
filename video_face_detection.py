@@ -4,6 +4,8 @@ import json
 import sys
 import time
 import cv2
+import numpy as np
+from PIL import Image, ImageDraw
 
 
 def words_convert(word):
@@ -121,7 +123,8 @@ class VideoDetect:
                 faceDetails = faceDetection['Face']
 
                 # print(f"Confidence: {faceDetails['Confidence']:.2f}%")
-                print(f"Timestamp:  {str(faceDetection['Timestamp'])}")
+                # print(
+                # f"Timestamp: {str(faceDetection['Timestamp'])} BoundingBox:{faceDetection['Face']['BoundingBox']}")
                 # print(
                 #     f"性別: {words_convert(str(faceDetails['Gender']['Value']))} ({faceDetails['Gender']['Confidence']:.2f}%)")
                 # print(
@@ -195,60 +198,51 @@ class VideoDetect:
         self.sns.delete_topic(TopicArn=self.snsTopicArn)
 
 
-def DrawBoundingBox(bucket, video, detection_results):
+def DrawBoundingBox(bucket, objectName, boxes):
     tmp_filename = './input.mp4'
 
     s3_client = boto3.resource('s3')
-    s3_client.meta.client.download_file(bucket, video, tmp_filename)
+    s3_client.meta.client.download_file(bucket, objectName, tmp_filename)
 
     cap = cv2.VideoCapture(tmp_filename)
     fps = cap.get(cv2.CAP_PROP_FPS)
     img_width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
     img_height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 
-    fourcc = cv2.VideoWriter_fourcc(*'mp4v')
-    output_video = cv2.VideoWriter(
-        './output.mp4', fourcc, fps, (img_width, img_height))
+    fourcc = cv2.VideoWriter_fourcc('m', 'p', '4', 'v')
+    video = cv2.VideoWriter('./output02.mp4', fourcc,
+                            fps, (img_width, img_height))
 
     active_faces = []
-
+    cur_idx = 0
     while True:
         ret, frame = cap.read()
         if not ret:
             break
 
-        timestamp = cap.get(cv2.CAP_PROP_POS_MSEC)
-
-        for detection_result in detection_results:
-            if abs(timestamp - detection_result['Timestamp_detection']) < (1000 / fps):
-                update = False
+        for box, i in enumerate(boxes):
+            if box[i]['Timestamp_detection'] == box[i+1]['Timestamp_detection']:
                 for face in active_faces:
-                    face['BoundingBox'] = detection_result['BoundingBox']
-                    face['Timestamp'] = timestamp
-                    face['Timestamp_detection'] = detection_result['Timestamp_detection']
-                    update = True
-                    break
-                if not update:
-                    active_faces.append(detection_result)
-
-        # active_faces_copy = active_faces.copy()
-        # for face in active_faces_copy:
-        #     if abs(timestamp - face['Timestamp_search']) > (1000 / fps):
-        #         active_faces.remove(face)
-        print(active_faces)
+                    face['Timestamp_detection'] = boxes['Timestamp_detection']
+                    face['BoundingBox'] = boxes['BoundingBox']
 
         for face in active_faces:
+            # timestamp = box['Timestamp_detection']
+            # if timestamp <= cap.get(cv2.CAP_PROP_POS_MSEC):
             left = int(face['BoundingBox']['Left'] * img_width)
             top = int(face['BoundingBox']['Top'] * img_height)
             right = int((face['BoundingBox']['Left'] +
                         face['BoundingBox']['Width']) * img_width)
             bottom = int((face['BoundingBox']['Top'] +
                           face['BoundingBox']['Height']) * img_height)
-            cv2.rectangle(frame, (left, top), (right, bottom), (0, 0, 255), 2)
 
-        output_video.write(frame)
+            cv2.rectangle(frame, (left, top),
+                          (right, bottom), (0, 0, 255), 2)
+
+        video.write(frame)
+
     cap.release()
-    output_video.release()
+    video.release()
 
 
 def main():
