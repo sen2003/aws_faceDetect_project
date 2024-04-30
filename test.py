@@ -192,7 +192,7 @@ class VideoDetect:
             for personMatch in response['Persons']:
                 personFace = personMatch["Person"]["Face"]
                 # bounding_box = face['BoundingBox']
-                print("Timestamp: " + str(personMatch['Timestamp']))
+                # print("Timestamp: " + str(personMatch['Timestamp']))
 
                 if 'FaceMatches' in personMatch:
                     for faceMatch in personMatch['FaceMatches']:

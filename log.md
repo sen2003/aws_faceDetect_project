@@ -7,3 +7,4 @@
     - 假如偵測不到(Name:Unknow)則FaceMatch底下的similarity會繼承前一比配對到的人臉資料所以統一改為0.00%
     - GetFinalResult()底下的search_results_dict只會紀錄同樣的Timestamp中最後一筆出現的Timestamp並以該Timestamp當作Key另存為新的dict，導致輸出結果錯誤
 - 4/9 多
+- 4/30 https://github.com/shihyung/Yolov4_crowdhuman_detection
