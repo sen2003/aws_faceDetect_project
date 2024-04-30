@@ -135,8 +135,8 @@ class VideoDetect:
                         match_data = {
                             "Timestamp": personMatch['Timestamp'],
                             "BoundingBox": personFace['BoundingBox'],
-                            "Name":chinese_name(face['ExternalImageId']),
-                            "Similarity":faceMatch['Similarity']
+                            "Name": chinese_name(face['ExternalImageId']),
+                            "Similarity": faceMatch['Similarity']
                         }
                         results.append(match_data)
                         print("   Face ID: " + face['FaceId'])
@@ -145,11 +145,11 @@ class VideoDetect:
                             f"   姓名: {chinese_name(face['ExternalImageId'])}")
                         print()
                 else:
-                    no_match_data={
+                    no_match_data = {
                         "Timestamp": personMatch['Timestamp'],
                         "BoundingBox": personFace['BoundingBox'],
-                        "Name":"Unknow",
-                        "Similarity":"0.00%"
+                        "Name": "Unknow",
+                        "Similarity": "0.00%"
                     }
                     results.append(no_match_data)
                     print("   未知人臉")
@@ -222,7 +222,7 @@ def main():
 
     roleArn = 'arn:aws:iam::637423267378:role/LabRole'
     bucket = 'lab-video-search'
-    video_s3 = 'video_detect04.mp4'
+    video_s3 = 'video_detect06.MOV'
 
     session = boto3.Session(profile_name='default')
     client = session.client('rekognition')

@@ -108,28 +108,28 @@ class VideoDetect:
                                                    NextToken=paginationToken
                                                    )
 
-            print('Codec: ' + response['VideoMetadata']['Codec'])
-            print('Duration: ' +
-                  str(response['VideoMetadata']['DurationMillis']))
-            print('Format: ' + response['VideoMetadata']['Format'])
-            print('Frame rate: ' + str(response['VideoMetadata']['FrameRate']))
-            print()
+            # print('Codec: ' + response['VideoMetadata']['Codec'])
+            # print('Duration: ' +
+            #       str(response['VideoMetadata']['DurationMillis']))
+            # print('Format: ' + response['VideoMetadata']['Format'])
+            # print('Frame rate: ' + str(response['VideoMetadata']['FrameRate']))
+            # print()
 
             for faceDetection in response['Faces']:
                 results.append(
-                    {'Timestamp': faceDetection['Timestamp'], 'BoundingBox': faceDetection['Face']['BoundingBox']})
+                    {'Timestamp_detection': faceDetection['Timestamp'], 'BoundingBox': faceDetection['Face']['BoundingBox']})
                 faceDetails = faceDetection['Face']
 
-                print(f"Confidence: {faceDetails['Confidence']:.2f}%")
-                print(f"Timestamp:  {str(faceDetection['Timestamp'])} (ms)")
-                print(
-                    f"性別: {words_convert(str(faceDetails['Gender']['Value']))} ({faceDetails['Gender']['Confidence']:.2f}%)")
-                print(
-                    f"年齡區間: {str(faceDetails['AgeRange']['Low'])}~{str(faceDetails['AgeRange']['High'])}")
-                emotions = [
-                    f"{words_convert(emotion['Type'])}({emotion['Confidence']:.2f}%)" for emotion in faceDetails['Emotions']]
-                print(f"情绪: {', '.join(emotions)}")
-                print()
+                # print(f"Confidence: {faceDetails['Confidence']:.2f}%")
+                print(f"Timestamp:  {str(faceDetection['Timestamp'])}")
+                # print(
+                #     f"性別: {words_convert(str(faceDetails['Gender']['Value']))} ({faceDetails['Gender']['Confidence']:.2f}%)")
+                # print(
+                #     f"年齡區間: {str(faceDetails['AgeRange']['Low'])}~{str(faceDetails['AgeRange']['High'])}")
+                # emotions = [
+                #     f"{words_convert(emotion['Type'])}({emotion['Confidence']:.2f}%)" for emotion in faceDetails['Emotions']]
+                # print(f"情绪: {', '.join(emotions)}")
+                # print()
 
             if 'NextToken' in response:
                 paginationToken = response['NextToken']
@@ -195,28 +195,22 @@ class VideoDetect:
         self.sns.delete_topic(TopicArn=self.snsTopicArn)
 
 
-def DrawBoundingBox(bucket, objectName, boxes):
+def DrawBoundingBox(bucket, video, detection_results):
     tmp_filename = './input.mp4'
 
     s3_client = boto3.resource('s3')
-    s3_client.meta.client.download_file(bucket, objectName, tmp_filename)
+    s3_client.meta.client.download_file(bucket, video, tmp_filename)
 
     cap = cv2.VideoCapture(tmp_filename)
     fps = cap.get(cv2.CAP_PROP_FPS)
     img_width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
     img_height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 
-    fourcc = cv2.VideoWriter_fourcc('m', 'p', '4', 'v')
-    video = cv2.VideoWriter('./output03.mp4', fourcc,
-                            fps, (img_width, img_height))
+    fourcc = cv2.VideoWriter_fourcc(*'mp4v')
+    output_video = cv2.VideoWriter(
+        './output.mp4', fourcc, fps, (img_width, img_height))
 
-    cur_idx = 0
-    left = int(boxes[cur_idx]['BoundingBox']['Left'] * img_width)
-    top = int(boxes[cur_idx]['BoundingBox']['Top'] * img_height)
-    right = int((boxes[cur_idx]['BoundingBox']['Left'] +
-                boxes[cur_idx]['BoundingBox']['Width']) * img_width)
-    bottom = int((boxes[cur_idx]['BoundingBox']['Top'] +
-                 boxes[cur_idx]['BoundingBox']['Height']) * img_height)
+    active_faces = []
 
     while True:
         ret, frame = cap.read()
@@ -224,6 +218,37 @@ def DrawBoundingBox(bucket, objectName, boxes):
             break
 
         timestamp = cap.get(cv2.CAP_PROP_POS_MSEC)
+
+        for detection_result in detection_results:
+            if abs(timestamp - detection_result['Timestamp_detection']) < (1000 / fps):
+                update = False
+                for face in active_faces:
+                    face['BoundingBox'] = detection_result['BoundingBox']
+                    face['Timestamp'] = timestamp
+                    face['Timestamp_detection'] = detection_result['Timestamp_detection']
+                    update = True
+                    break
+                if not update:
+                    active_faces.append(detection_result)
+
+        # active_faces_copy = active_faces.copy()
+        # for face in active_faces_copy:
+        #     if abs(timestamp - face['Timestamp_search']) > (1000 / fps):
+        #         active_faces.remove(face)
+        print(active_faces)
+
+        for face in active_faces:
+            left = int(face['BoundingBox']['Left'] * img_width)
+            top = int(face['BoundingBox']['Top'] * img_height)
+            right = int((face['BoundingBox']['Left'] +
+                        face['BoundingBox']['Width']) * img_width)
+            bottom = int((face['BoundingBox']['Top'] +
+                          face['BoundingBox']['Height']) * img_height)
+            cv2.rectangle(frame, (left, top), (right, bottom), (0, 0, 255), 2)
+
+        output_video.write(frame)
+    cap.release()
+    output_video.release()
 
 
 def main():
@@ -243,9 +268,9 @@ def main():
 
     analyzer.StartFaceDetection()
     if analyzer.GetSQSMessageSuccess() == True:
-        # analyzer.GetFaceDetectionResults()
         bounding_boxes = analyzer.GetFaceDetectionResults()
         DrawBoundingBox(bucket, video, bounding_boxes)
+
         # results_json = json.dumps(results, indent=4, ensure_ascii=False)
         # with open('detection_boundingBox_results.json', 'w', encoding='utf-8') as f:
         #     f.write(results_json)
