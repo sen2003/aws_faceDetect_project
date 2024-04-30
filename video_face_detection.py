@@ -255,7 +255,7 @@ def main():
 
     roleArn = 'arn:aws:iam::637423267378:role/LabRole'
     bucket = 'lab-video-search'
-    video = 'video_detect04.mp4'
+    video = 'video_detect02.mp4'
 
     session = boto3.Session(profile_name='default')
     client = session.client('rekognition')
